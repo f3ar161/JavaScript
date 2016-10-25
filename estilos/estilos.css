@@ -1,0 +1,27 @@
+  html {
+            background-color: #687fd4    
+        }
+        
+        body{
+            background-color: #00ff95
+        }
+        
+        h1{
+            background-color: #FF9800 
+        }
+        .nombreClaseAzul{background-color: #0037ff;}
+        .nombreClaseRosa{background-color: #ff00bc;}
+        .nombreClaseVerde{background-color: #14721f;}
+        
+        
+        /*
+        elementos hpor id*/
+        
+        #parrafoverde{
+           background-color: #8a2419;
+        }
+        
+        
+        elements.style{
+            border-style: solid 10px;
+        }
