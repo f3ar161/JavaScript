@@ -23,6 +23,8 @@
   * <a href="#emmet">EMMET</a>
   * <a href="#xml">XML</a>
   * <a href="#PostMan">PostMan</a>
+  * <a href="#WWW">World Wide Web</a>
+  * <a href="#W3C">W3C</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -72,6 +74,21 @@ Esta herramienta nos permite construir y gestionar de una forma cómoda nuestras
 (Fuente: [Genbetadev](http://www.genbetadev.com/herramientas/chrome-rest-y-postman))
 
 <br>
+<a name="WWW"></a>
+### World Wide Web
+En informática, la World Wide Web (WWW) o red informática mundial1 es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
+
+(Fuente: [Wikipedia](https://es.wikipedia.org/wiki/World_Wide_Web))
+
+<br>
+<a name="W3C"></a>
+### W3c
+El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones, personal a tiempo completo y el público en general trabajan conjuntamente para desarrollar estándares Web. Liderado por el inventor de la Web Tim Berners-Lee y el Director Ejecutivo (CEO) Jeffrey Jaffe, la misión del W3C es guiar la Web hacia su máximo potencial.
+
+(Fuente: [w3c](http://www.w3c.es/Consorcio/))
+
+<br>
+
 <a href="#cabecera">A la cabecera</a>
 <br>
 
