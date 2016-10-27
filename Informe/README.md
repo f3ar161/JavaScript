@@ -25,6 +25,7 @@
   * <a href="#PostMan">PostMan</a>
   * <a href="#WWW">World Wide Web</a>
   * <a href="#W3C">W3C</a>
+  * <a href="#Doctype">Doctype</a> 
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -36,7 +37,7 @@ El tema de la práctica es: `Introducción a la Web`
 ## Objetivos
 
 - Desarrollar el conocimiento Web
-- Conocer herramientas de desarrolladores web como: postman, inspetor web
+- Conocer herramientas de desarrolladores web como: PostMan, Brackets, entre otras.
 - Aprender el uso de lenguaje HTML CSS
 
 <a name="marco-teorico"></a>
@@ -88,11 +89,28 @@ El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organ
 (Fuente: [w3c](http://www.w3c.es/Consorcio/))
 
 <br>
+<a name="Doctype"></a>
+### Doctype
+El Doctype o “Declaración del tipo de documento” es una instrucción especial que va al inicio de nuestro documento HTML y que permite al navegador entender qué versión de HTML estamos utilizando. Esta información determinará la manera en la que el navegador procesará el documento, un DOCTYPE distinto podría implicar hasta una visualización diferente del sitio web dentro del mismo navegador.
 
+(Fuente: [devcode](https://devcode.la/tutoriales/doctype-que-es-y-para-que-sirve/))
+
+<br>
+<a name="npm"></a>
+### Npm
+A pesar de la complicada e interesante descripción del origen de “npm”, definitivamente npm es el director de la orquesta cuando se refiere a el manejo de dependencias o módulos en node.js, los uso más comunes son para:
+
+- Publicar
+- Descubrir
+- Instalar
+- Desarrollar programas en node
+
+Es la herramienta perfecta y necesaria en cuando a manejo de dependencias se refiere.
+(Fuente: [nodehispano](http://www.nodehispano.com/2012/04/una-introduccion-a-npm-nodejs/))
+
+<br>
 <a href="#cabecera">A la cabecera</a>
 <br>
-
-
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
