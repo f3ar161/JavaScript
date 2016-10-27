@@ -7,8 +7,8 @@
 </p>
 
 ### Tema : `Introducción a la Web` 
-### Fecha : `2016-10-21`
-### Estudiante : `Vicente Adrian Eguez Sarzosa`
+### Fecha : `2016-10-18`
+### Estudiante : `Angel Enrique Molina Ortiz`
 ### Profesor : `Tania Calle - Adrian Eguez`
 ### Número de informe : `1`
 
