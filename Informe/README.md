@@ -120,9 +120,56 @@ Imagenes con redirección
 <a href="https://es.wikipedia.org/wiki/Saint_Seiya">
 <img border="0" alt="el papu" src="http://file.saintseiya-gold.com/global/common/img/story/seiya_s11_2.jpg" width="300" height="300">
 ```
+##Código fuente del HTML
+```
+<!DOCTYPE html>
+<html lang="en" style="background-color: #00bcd4">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aprendiendo HTML</title>
+</head>
+
+<body style="background-color: pink">
+    <h1>Cabecera grande</h1>
+    <<h2>Cabecera menos grande</h2>
+        <h3>Cabecera menos menos grande</h3>
+
+        <h3><a href="https://es.wikipedia.org/wiki/Saint_Seiya" target="_blank">Link del papu</a></h3>
+        <h2>Caballeros del Zodiaco</h2>
+        <a href="https://es.wikipedia.org/wiki/Saint_Seiya">
+            <img border="0" alt="el papu" src="http://file.saintseiya-gold.com/global/common/img/story/seiya_s11_2.jpg" width="300" height="300">
+        </a>
+        <p>aint Seiya (聖闘士星矢, Seinto Seiya?), conocido en español como Los Caballeros del Zodiaco, es un manga shōnen creado en 1986 por Masami Kurumada y publicado originalmente desde enero del mismo año en la revista Shūkan Shōnen Jump de la editorial Shūeisha hasta diciembre de 1990. Fue adaptado posteriormente en una serie de anime de 145 episodios. También se han producido cinco películas animadas y una película con animación CG, además de varias precuelas y secuelas oficiales de la historia original. Se publicaron 108 tomos del manga junto con una edición especial, haciendo un total de 109 en formato Tankoubon, dividido en 28 volúmenes con tres series principales: Santuario, Poseidón y Hades. Ha sido reimpreso y reeditado en formato Wideban, Bunkoban y Kanzenban y también el llamado "Remix", la producción en tres ediciones (2002, 2007 y 2012).</p>
+
+        <!--lista no ordenada></!-->
+        <!--usando emmet tab></!-->
+        <ul>
+            <li>un papu </li>
+            <li>dos papus</li>
+            <li>tres papus</li>
+        </ul>
+
+        <ol>
+            <li>un gato </li>
+            <li>dos gatos </li>
+            <li>tres gatos</li>
+        </ol>
+</body>
+
+</html>
+
+```
+<br>
+### Resultado en el navegador
+
 
 <br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/html%20resultado.PNG" width="400" height="250">
+</p>
 
+<br>
 ### Imagenes desde Github **IMPORTANTE**
 
 Se pueden usar imágenes desde nuestros archivos en github que constan de la siguiente URL:
