@@ -27,6 +27,7 @@
   * <a href="#W3C">W3C</a>
   * <a href="#Doctype">Doctype</a>
   * <a href="#npm">Npm</a>
+  * <a href="#css">CSS</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -37,9 +38,9 @@ El tema de la práctica es: `Introducción a la Web`
 <a name="objetivos"></a>
 ## Objetivos
 
-- Desarrollar el conocimiento Web
-- Conocer herramientas de desarrolladores web como: PostMan, Brackets, entre otras.
-- Aprender el uso de lenguaje HTML CSS
+- Comprender el funcionamiento y desarrollo de contenido Web
+- Entender las herramientas que se utilizan en el desarrollo web como: PostMan, Brackets, entre otras.
+- Desarrollar las habilidades de de programacion en JavaScript, HTML.
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
@@ -139,7 +140,7 @@ Es la herramienta perfecta y necesaria en cuando a manejo de dependencias se ref
 <a name="css"></a>
 ### CSS
 <p align="center">
-<img src="https://3.bp.blogspot.com/-qbDHB-6hWTg/VrqgMzARI0I/AAAAAAAAGeQ/QBiS33eX8pU/s1600/css3_logo.png" width="150" height="250">
+<img src="https://3.bp.blogspot.com/-qbDHB-6hWTg/VrqgMzARI0I/AAAAAAAAGeQ/QBiS33eX8pU/s1600/css3_logo.png" width="150" height="200">
 </p>
 CSS es un lenguaje utilizado en la presentación de documentos HTML. Un documento HTML viene siendo coloquialmente “una página web”. Entonces podemos decir que el lenguaje CSS sirve para organizar la presentación y aspecto de una página web. Este lenguaje es principalmente utilizado por parte de los navegadores web de internet y por los programadores web informáticos para elegir multitud de opciones de presentación como colores, tipos y tamaños de letra, etc.
 (Fuente: [aprenderaprogramar](http://www.aprenderaprogramar.com/index.php?option=com_content&id=546:que-es-y-para-que-sirve-el-lenguaje-css-cascading-style-sheets-hojas-de-estilo&Itemid=163))
@@ -283,11 +284,10 @@ Dentro de la inspección de elementos se puede visualizar el tiempo de carga de 
 
 ## Conclusiones y Recomendaciones
 
-- Se recomienda mejorar la presentacion
-- Se recomienda usar el ir a cabecera despues de terminar una seccion
-- Se aprendio el uso de HTML con Markdown
-- Conocimos herramientas de desarrollo web como postman e inspector web
-- Desarrollamos conocimientos de introducción Web
+- Gracias a la practica realizada se logra entender el funcionamiento del navegador y la web
+- Utilizar extensiones como emmet y beautify sirven para reducir tiempos de desarrollo, permitiendos realizar mayor cantidad de trabajo.
+- El lenguaje Markdown nos permite crear archivos ligeros que sean legibles y faciles de entender. 
+- Herramientas de desarrollo como PostMan nos permiten obtener datos normalizados .json o .xml
 
 <br>
 <a href="#cabecera">A la cabecera</a>
