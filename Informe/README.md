@@ -3,7 +3,7 @@
 ### Materia : `Tecnologías Web con JavaScript`
 
 <p align="center">
-<img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="200" height="100">
+<img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="200" height="150">
 </p>
 
 ### Tema : `Introducción a la Web` 
@@ -19,14 +19,14 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
-  * <a href="#hist">Historia y Facts</a>
-  * <a href="#defhtml">Definicion HTML</a>
+  * <a href="#defhtml">HTML</a>
+  * <a href="#emmet">EMMET</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
 ## Tema
-El tema de la práctica es: `Introduccion a la Web`
+El tema de la práctica es: `Introducción a la Web`
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -38,13 +38,26 @@ El tema de la práctica es: `Introduccion a la Web`
 <a name="marco-teorico"></a>
 ## Marco Teorico
 <a name="defhtml"></a>
-### Definición HTML
+### HTML
 
-En informática, la World Wide Web (WWW) o red informática mundial1 es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces. (Fuente: [Wikipedia](https://es.wikipedia.org/wiki/World_Wide_Web))
+HTML, que significa Lenguaje de Marcado para Hipertextos (HyperText Markup Language) es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web. Determina el contenido de la página web, pero no su funcionalidad.
+HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se refiere a enlaces que conectan una página Web con otra, haciendo de la Red Mundial (World Wide Web) lo que es hoy. Al crear y subir páginas Web a Internet, te haces participante activo de esta Red Mundial desde que tu sitio está en línea. HTML soporta imágenes y también otro tipo de elementos multimedia. Con la ayuda de HTML todos pueden hacer sítios web estáticos y dinámicos. HTML es el lenguaje que describe la estructura y el contenido semántico de un documento web.
+
+(Fuente: [developer.mozilla](https://developer.mozilla.org/es/docs/Web/HTML))
+
+<br>
+<a name="emmet"></a>
+### EMMET
+Anteriormente conocido como Zen Coding; es un plugin para muchos editores de texto desarrollado y optimizado para desarrolladores web cuyo flujo de trabajo depende de HTML / XML y CSS, pero se puede utilizar con los lenguajes de programación también.
+
+(Fuente: [html5facil](http://html5facil.com/tips/emmet-una-herramienta-esencial-para-los-desarrolladores-web/))
+
+
 <br>
 <a href="#cabecera">A la cabecera</a>
+<br>
 
-<br><br>
+
 <p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/WWW_logo_by_Robert_Cailliau.svg/240px-WWW_logo_by_Robert_Cailliau.svg.png" width="300" height="200">
 </p>
