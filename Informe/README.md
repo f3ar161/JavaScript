@@ -75,9 +75,6 @@ Esta herramienta nos permite construir y gestionar de una forma cómoda nuestras
 <a href="#cabecera">A la cabecera</a>
 <br>
 
-<br>
-<a href="#cabecera">A la cabecera</a>
-
 
 <a name="desarrollo"></a>
 ## Desarrollo del informe
@@ -86,6 +83,25 @@ Para el desarrollo de la practica se procede a instalar la extension emmet en br
 
 <p align="center">
 <img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/emmet.png" width="800" height="500">
+</p>
+
+Gracias a emmet se puede mermar el tiempo de trabajo. Se puede establecer el cuerpo del HTML de manera eficiente.
+
+- Emmet 
+  * `<! + TAB`
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/html.PNG" width="400" height="250">
+</p>
+
+Los dos Tags mas importantes son el Body y el Head
+Una vez que tenemos el cuerpo del HTML podemos empezar a realizar un ejemplo de pagina web.
+
+https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/codigo.png
+
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/codigo.png" width="400" height="250">
 </p>
 
 
