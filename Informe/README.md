@@ -268,7 +268,7 @@ Resultado
 
 El uso de PostMan sirve para obtener archivos .json a partir de urls con metodos get y pos. 
 
-# Inspeccion de elementos en el navegador
+# Inspección de elementos en el navegador
 
 Dentro de la inspección de elementos se puede visualizar el tiempo de carga de nuestra pagina, esto sirve para establecer buenas practicas de desarrollo y que la pagina Web no se demore mas de lo debido.
 
@@ -291,8 +291,5 @@ Dentro de la inspección de elementos se puede visualizar el tiempo de carga de 
 
 <br>
 <a href="#cabecera">A la cabecera</a>
-
-
-# ¡Gracias por su atención!
 
 Author: [Angel Molina](https://github.com/f3ar161)
