@@ -97,13 +97,31 @@ Gracias a emmet se puede mermar el tiempo de trabajo. Se puede establecer el cue
 Los dos Tags mas importantes son el Body y el Head
 Una vez que tenemos el cuerpo del HTML podemos empezar a realizar un ejemplo de pagina web.
 
-https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/codigo.png
-
 <br>
 <p align="center">
 <img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/codigo.png" width="400" height="250">
 </p>
 
+En la creacion de este HTML se contemplo varios conceptos, como el manejo del colores, redireccion de paginsa, imagens con links, titulos y manejo de listas tanto ordenadas como no ordenadas. 
+
+
+Código para el manejo de estilos.
+```
+style="background-color: pink" 
+```
+
+Título con redirección.
+```
+<h3><a href="https://es.wikipedia.org/wiki/Saint_Seiya" target="_blank">Link del papu</a></h3> 
+```
+
+Imagenes con redirección
+```
+<a href="https://es.wikipedia.org/wiki/Saint_Seiya">
+<img border="0" alt="el papu" src="http://file.saintseiya-gold.com/global/common/img/story/seiya_s11_2.jpg" width="300" height="300">
+```
+
+<br>
 
 ### Imagenes desde Github **IMPORTANTE**
 
