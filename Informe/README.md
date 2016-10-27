@@ -171,6 +171,33 @@ Imagenes con redirección
 
 <br>
 
+Manejo de colores desde el navegador. 
+El uso de colores para cambiar los estilos resulta mas facil desde el navegor, inspeccionado el elemento con F12, simplemente se copia el codigo de color del elemento como se muestra a continuación.
+
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/elementos%20del%20html.PNG" width="900" height="600">
+</p>
+
+# Manejo de PostMan
+Postman permite obtener información mediante varios metodos como GET, POST, entre otros. 
+Para su utilizacion ingresamos una url por ejemplo:
+Se desea obtener la información de un pokemón.
+
+- Parametros necesarios (el número del pokemón deseado - 100)
+```
+http://pokeapi.co/api/v2/pokemon/100/
+```
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/PostMan.PNG" width="900" height="600">
+</p>
+
+
+
+
+
+# Inspeccion de elementos en el navegador
 
 <a name="conrec"></a>
 
