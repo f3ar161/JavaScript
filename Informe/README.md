@@ -100,7 +100,7 @@ En informática, la World Wide Web (WWW) o red informática mundial1 es un siste
 <a name="W3C"></a>
 ### W3c
 <p align="center">
-<img src="https://www.todosobrehosting.com/wp-content/uploads/2010/04/W3C-World-Web-Consortium.gif" width="200" height="200">
+<img src="https://www.todosobrehosting.com/wp-content/uploads/2010/04/W3C-World-Web-Consortium.gif" width="300" height="200">
 </p>
 
 El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones, personal a tiempo completo y el público en general trabajan conjuntamente para desarrollar estándares Web. Liderado por el inventor de la Web Tim Berners-Lee y el Director Ejecutivo (CEO) Jeffrey Jaffe, la misión del W3C es guiar la Web hacia su máximo potencial.
@@ -111,7 +111,7 @@ El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organ
 <a name="Doctype"></a>
 ### Doctype
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/doctype.jpg" width="200" height="200">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/doctype.jpg" width="300" height="100">
 </p>
 El Doctype o “Declaración del tipo de documento” es una instrucción especial que va al inicio de nuestro documento HTML y que permite al navegador entender qué versión de HTML estamos utilizando. Esta información determinará la manera en la que el navegador procesará el documento, un DOCTYPE distinto podría implicar hasta una visualización diferente del sitio web dentro del mismo navegador.
 
@@ -122,7 +122,7 @@ El Doctype o “Declaración del tipo de documento” es una instrucción especi
 ### Npm
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/node.png" width="200" height="200">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/node.png" width="300" height="200">
 </p>
 A pesar de la complicada e interesante descripción del origen de “npm”, definitivamente npm es el director de la orquesta cuando se refiere a el manejo de dependencias o módulos en node.js, los uso más comunes son para:
 
@@ -133,6 +133,16 @@ A pesar de la complicada e interesante descripción del origen de “npm”, def
 
 Es la herramienta perfecta y necesaria en cuando a manejo de dependencias se refiere.
 (Fuente: [nodehispano](http://www.nodehispano.com/2012/04/una-introduccion-a-npm-nodejs/))
+
+<br>
+
+<a name="css"></a>
+### CSS
+<p align="center">
+<img src="https://3.bp.blogspot.com/-qbDHB-6hWTg/VrqgMzARI0I/AAAAAAAAGeQ/QBiS33eX8pU/s1600/css3_logo.png" width="150" height="250">
+</p>
+CSS es un lenguaje utilizado en la presentación de documentos HTML. Un documento HTML viene siendo coloquialmente “una página web”. Entonces podemos decir que el lenguaje CSS sirve para organizar la presentación y aspecto de una página web. Este lenguaje es principalmente utilizado por parte de los navegadores web de internet y por los programadores web informáticos para elegir multitud de opciones de presentación como colores, tipos y tamaños de letra, etc.
+(Fuente: [aprenderaprogramar](http://www.aprenderaprogramar.com/index.php?option=com_content&id=546:que-es-y-para-que-sirve-el-lenguaje-css-cascading-style-sheets-hojas-de-estilo&Itemid=163))
 
 <br>
 <a href="#cabecera">A la cabecera</a>
