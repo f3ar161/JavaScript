@@ -58,7 +58,7 @@ HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se ref
 <a name="emmet"></a>
 ### EMMET
 <p align="center">
-<img src="http://emmet.io/i/logo-large.png" width="300" height="200">
+<img src="http://emmet.io/i/logo-large.png" width="200" height="200">
 </p>
 
 Anteriormente conocido como Zen Coding; es un plugin para muchos editores de texto desarrollado y optimizado para desarrolladores web cuyo flujo de trabajo depende de HTML / XML y CSS, pero se puede utilizar con los lenguajes de programación también.
@@ -69,7 +69,7 @@ Anteriormente conocido como Zen Coding; es un plugin para muchos editores de tex
 <a name="XML"></a>
 ### XML
 <p align="center">
-<img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="300" height="200">
+<img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="200" height="200">
 </p>
 XML, siglas en inglés de eXtensible Markup Language ("lenguaje de marcas Extensible"), es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es a su vez un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información.
 
@@ -88,6 +88,10 @@ Esta herramienta nos permite construir y gestionar de una forma cómoda nuestras
 <br>
 <a name="WWW"></a>
 ### World Wide Web
+<p align="center">
+<img src="http://previews.123rf.com/images/madmaxer/madmaxer1009/madmaxer100900101/7744563-ilustraci-n-3d-abstracto-de-globo-terr-queo-con-el-texto-World-Wide-Web--Foto-de-archivo.jpg" width="200" height="200">
+</p>
+
 En informática, la World Wide Web (WWW) o red informática mundial1 es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
 
 (Fuente: [Wikipedia](https://es.wikipedia.org/wiki/World_Wide_Web))
@@ -95,6 +99,10 @@ En informática, la World Wide Web (WWW) o red informática mundial1 es un siste
 <br>
 <a name="W3C"></a>
 ### W3c
+<p align="center">
+<img src="https://www.todosobrehosting.com/wp-content/uploads/2010/04/W3C-World-Web-Consortium.gif" width="200" height="200">
+</p>
+
 El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones, personal a tiempo completo y el público en general trabajan conjuntamente para desarrollar estándares Web. Liderado por el inventor de la Web Tim Berners-Lee y el Director Ejecutivo (CEO) Jeffrey Jaffe, la misión del W3C es guiar la Web hacia su máximo potencial.
 
 (Fuente: [w3c](http://www.w3c.es/Consorcio/))
@@ -102,6 +110,9 @@ El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organ
 <br>
 <a name="Doctype"></a>
 ### Doctype
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/doctype.jpg" width="200" height="200">
+</p>
 El Doctype o “Declaración del tipo de documento” es una instrucción especial que va al inicio de nuestro documento HTML y que permite al navegador entender qué versión de HTML estamos utilizando. Esta información determinará la manera en la que el navegador procesará el documento, un DOCTYPE distinto podría implicar hasta una visualización diferente del sitio web dentro del mismo navegador.
 
 (Fuente: [devcode](https://devcode.la/tutoriales/doctype-que-es-y-para-que-sirve/))
@@ -109,6 +120,10 @@ El Doctype o “Declaración del tipo de documento” es una instrucción especi
 <br>
 <a name="npm"></a>
 ### Npm
+
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/node.png" width="200" height="200">
+</p>
 A pesar de la complicada e interesante descripción del origen de “npm”, definitivamente npm es el director de la orquesta cuando se refiere a el manejo de dependencias o módulos en node.js, los uso más comunes son para:
 
 - Publicar
