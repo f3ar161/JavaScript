@@ -194,11 +194,16 @@ Resultado
 <img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/PostMan.PNG" width="900" height="600">
 </p>
 
-
-
-
+El uso de PostMan sirve para obtener archivos .json a partir de urls con metodos get y pos. 
 
 # Inspeccion de elementos en el navegador
+
+Dentro de la inspección de elementos se puede visualizar el tiempo de carga de nuestra pagina, esto sirve para establecer buenas practicas de desarrollo y que la pagina Web no se demore mas de lo debido.
+
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/trafico.PNG" width="900" height="600">
+</p>
 
 <a name="conrec"></a>
 
