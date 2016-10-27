@@ -25,7 +25,8 @@
   * <a href="#PostMan">PostMan</a>
   * <a href="#WWW">World Wide Web</a>
   * <a href="#W3C">W3C</a>
-  * <a href="#Doctype">Doctype</a> 
+  * <a href="#Doctype">Doctype</a>
+  * <a href="#npm">Npm</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -56,6 +57,10 @@ HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se ref
 <br>
 <a name="emmet"></a>
 ### EMMET
+<p align="center">
+<img src="http://emmet.io/i/logo-large.png" width="300" height="200">
+</p>
+
 Anteriormente conocido como Zen Coding; es un plugin para muchos editores de texto desarrollado y optimizado para desarrolladores web cuyo flujo de trabajo depende de HTML / XML y CSS, pero se puede utilizar con los lenguajes de programación también.
 
 (Fuente: [html5facil](http://html5facil.com/tips/emmet-una-herramienta-esencial-para-los-desarrolladores-web/))
@@ -63,6 +68,9 @@ Anteriormente conocido como Zen Coding; es un plugin para muchos editores de tex
 <br>
 <a name="XML"></a>
 ### XML
+<p align="center">
+<img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="300" height="200">
+</p>
 XML, siglas en inglés de eXtensible Markup Language ("lenguaje de marcas Extensible"), es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es a su vez un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información.
 
 (Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Extensible_Markup_Language))
@@ -70,6 +78,9 @@ XML, siglas en inglés de eXtensible Markup Language ("lenguaje de marcas Extens
 <br>
 <a name="PostMan"></a>
 ### PostMan
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/logopostman.png" width="200" height="200">
+</p>
 Esta herramienta nos permite construir y gestionar de una forma cómoda nuestras peticiones a servicios REST (Post,Get,etc). Su manejo es realmente intuitivo ya que simplemente tenemos que definir la petición que queremos realizar.
 
 (Fuente: [Genbetadev](http://www.genbetadev.com/herramientas/chrome-rest-y-postman))
