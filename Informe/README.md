@@ -188,6 +188,7 @@ Se desea obtener la información de un pokemón.
 ```
 http://pokeapi.co/api/v2/pokemon/100/
 ```
+Resultado
 <br>
 <p align="center">
 <img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/PostMan.PNG" width="900" height="600">
