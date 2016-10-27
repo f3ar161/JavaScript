@@ -82,6 +82,13 @@ Esta herramienta nos permite construir y gestionar de una forma cómoda nuestras
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
+Para el desarrollo de la practica se procede a instalar la extension emmet en bracket.
+
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/emmet.png" width="800" height="500">
+</p>
+
+
 ### Imagenes desde Github **IMPORTANTE**
 
 Se pueden usar imágenes desde nuestros archivos en github que constan de la siguiente URL:
