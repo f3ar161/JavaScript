@@ -21,6 +21,8 @@
 - <a href="#marco-teorico">Marco Teorico</a>
   * <a href="#defhtml">HTML</a>
   * <a href="#emmet">EMMET</a>
+  * <a href="#xml">XML</a>
+  * <a href="#PostMan">PostMan</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -39,6 +41,9 @@ El tema de la práctica es: `Introducción a la Web`
 ## Marco Teorico
 <a name="defhtml"></a>
 ### HTML
+<p align="center">
+<img src="http://www.ciudadano2cero.com/wp-content/uploads/2014/01/html-on-sheet.jpg?x46159" width="300" height="200">
+</p>
 
 HTML, que significa Lenguaje de Marcado para Hipertextos (HyperText Markup Language) es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web. Determina el contenido de la página web, pero no su funcionalidad.
 HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se refiere a enlaces que conectan una página Web con otra, haciendo de la Red Mundial (World Wide Web) lo que es hoy. Al crear y subir páginas Web a Internet, te haces participante activo de esta Red Mundial desde que tu sitio está en línea. HTML soporta imágenes y también otro tipo de elementos multimedia. Con la ayuda de HTML todos pueden hacer sítios web estáticos y dinámicos. HTML es el lenguaje que describe la estructura y el contenido semántico de un documento web.
@@ -52,6 +57,19 @@ Anteriormente conocido como Zen Coding; es un plugin para muchos editores de tex
 
 (Fuente: [html5facil](http://html5facil.com/tips/emmet-una-herramienta-esencial-para-los-desarrolladores-web/))
 
+<br>
+<a name="XML"></a>
+### XML
+XML, siglas en inglés de eXtensible Markup Language ("lenguaje de marcas Extensible"), es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es a su vez un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información.
+
+(Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Extensible_Markup_Language))
+
+<br>
+<a name="PostMan"></a>
+### PostMan
+Esta herramienta nos permite construir y gestionar de una forma cómoda nuestras peticiones a servicios REST (Post,Get,etc). Su manejo es realmente intuitivo ya que simplemente tenemos que definir la petición que queremos realizar.
+
+(Fuente: [Genbetadev](http://www.genbetadev.com/herramientas/chrome-rest-y-postman))
 
 <br>
 <a href="#cabecera">A la cabecera</a>
@@ -59,7 +77,7 @@ Anteriormente conocido como Zen Coding; es un plugin para muchos editores de tex
 
 
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/WWW_logo_by_Robert_Cailliau.svg/240px-WWW_logo_by_Robert_Cailliau.svg.png" width="300" height="200">
+<img src="http://www.ciudadano2cero.com/wp-content/uploads/2014/01/html-on-sheet.jpg?x46159" width="300" height="200">
 </p>
 <br><br>
 <a name="hist"></a>
