@@ -1,4 +1,4 @@
-# Introducción a la Web
+# css
 
 ### Materia : `Tecnologías Web con JavaScript`
 
@@ -6,11 +6,11 @@
 <img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="200" height="150">
 </p>
 
-### Tema : `Introducción a la Web` 
-### Fecha : `2016-10-18`
+### Tema : `CSS` 
+### Fecha : `2016-11-1`
 ### Estudiante : `Angel Enrique Molina Ortiz`
 ### Profesor : `Tania Calle - Adrian Eguez`
-### Número de informe : `1`
+### Número de informe : `2`
 
 <a name="cabecera"></a>
 ## Índice de contenidos
@@ -19,9 +19,9 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
-  * <a href="#defhtml">HTML</a>
-  * <a href="#emmet">EMMET</a>
-  * <a href="#xml">XML</a>
+  * <a href="#angular">ANGULARJS</a>
+  * <a href="#BOOTSTRAP">BOOTSTRAP</a>
+  * <a href="#HOJAESTILO">HOJA DE ESTILO</a>
   * <a href="#PostMan">PostMan</a>
   * <a href="#WWW">World Wide Web</a>
   * <a href="#W3C">W3C</a>
@@ -33,7 +33,7 @@
 
 <a name="tema"></a>
 ## Tema
-El tema de la práctica es: `Introducción a la Web`
+El tema de la práctica es: `CSS`
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -44,37 +44,48 @@ El tema de la práctica es: `Introducción a la Web`
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
-<a name="defhtml"></a>
-### HTML
+<a name="angular"></a>
+### ANGULAR
 <p align="center">
-<img src="http://www.ciudadano2cero.com/wp-content/uploads/2014/01/html-on-sheet.jpg?x46159" width="300" height="200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/695px-AngularJS_logo.svg.png" width="300" height="100">
 </p>
 
-HTML, que significa Lenguaje de Marcado para Hipertextos (HyperText Markup Language) es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web. Determina el contenido de la página web, pero no su funcionalidad.
-HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se refiere a enlaces que conectan una página Web con otra, haciendo de la Red Mundial (World Wide Web) lo que es hoy. Al crear y subir páginas Web a Internet, te haces participante activo de esta Red Mundial desde que tu sitio está en línea. HTML soporta imágenes y también otro tipo de elementos multimedia. Con la ayuda de HTML todos pueden hacer sítios web estáticos y dinámicos. HTML es el lenguaje que describe la estructura y el contenido semántico de un documento web.
+AngularJS, o simplemente Angular, es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.
 
-(Fuente: [developer.mozilla](https://developer.mozilla.org/es/docs/Web/HTML))
+La biblioteca lee el HTML que contiene atributos de las etiquetas personalizadas adicionales, entonces obedece a las directivas de los atributos personalizados, y une las piezas de entrada o salida de la página a un modelo representado por las variables estándar de JavaScript. Los valores de las variables de JavaScript se pueden configurar manualmente, o recuperados de los recursos JSON estáticos o dinámicos.
+
+AngularJS se puede combinar con el entorno en tiempo de ejecución Node.js, el framework para servidor Express.js y la base de datos MongoDB para formar el conjunto MEAN.
+
+(Fuente: [wikipedia](https://es.wikipedia.org/wiki/AngularJS))
 
 <br>
-<a name="emmet"></a>
-### EMMET
+<a name="BOOTSTRAP"></a>
+### BOOTSTRAP
 <p align="center">
-<img src="http://emmet.io/i/logo-large.png" width="200" height="200">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/BOOTSTRAP.jpg" width="200" height="200">
 </p>
 
-Anteriormente conocido como Zen Coding; es un plugin para muchos editores de texto desarrollado y optimizado para desarrolladores web cuyo flujo de trabajo depende de HTML / XML y CSS, pero se puede utilizar con los lenguajes de programación también.
+Bootstrap, es un framework originalmente creado por Twitter, que permite crear interfaces web con CSS y JavaScript, cuya particularidad es la de adaptar la interfaz del sitio web al tamaño del dispositivo en que se visualice. Es decir, el sitio web se adapta automáticamente al tamaño de una PC, una Tablet u otro dispositivo. Esta técnica de diseño y desarrollo se conoce como “responsive design” o diseño adaptativo.
 
-(Fuente: [html5facil](http://html5facil.com/tips/emmet-una-herramienta-esencial-para-los-desarrolladores-web/))
+El beneficio de usar responsive design en un sitio web, es principalmente que el sitio web se adapta automáticamente al dispositivo desde donde se acceda. 
+
+(Fuente: [arweb](http://www.arweb.com/chucherias/editorial/%C2%BFque-es-bootstrap-y-como-funciona-en-el-diseno-web.htm))
 
 <br>
-<a name="XML"></a>
-### XML
+<a name="HOJAESTILO"></a>
+### HOJA DE ESTILO
 <p align="center">
-<img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="200" height="200">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/ESTILO.jpg" width="200" height="100">
 </p>
-XML, siglas en inglés de eXtensible Markup Language ("lenguaje de marcas Extensible"), es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es a su vez un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información.
+Las hojas de estilo representan un avance importante para los diseñadores de páginas web, al darles un mayor rango de posibilidades para mejorar la apariencia de sus páginas. En los entornos científicos en que la Web fue concebida, la gente estaba más preocupada por el contenido de sus páginas que por su presentación. A medida que la Web era descubierta por un espectro mayor de personas de distintas procedencias, las limitaciones del HTML se convirtieron en fuente de continua frustración, y los autores se vieron forzados a superar las limitaciones estilísticas del HTML. Aunque las intenciones han sido buenas -- mejorar la presentación de las páginas web --, las técnicas para conseguirlo han tenido efectos secundarios negativos. Entre estas técnicas, que dan buenos resultados para algunas personas, algunas veces, pero no siempre ni para todas las personas, se incluyen:
 
-(Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Extensible_Markup_Language))
+- La utilización de extensiones propietarias del HTML
+- Conversión del texto en imágenes
+- Utilización de imágenes para controlar el espacio en blanco
+- La utilización de tablas para la organización de las páginas
+- Escribir programas en lugar de usar HTML
+
+(Fuente: [html.conclase](http://html.conclase.net/w3c/html401-es/present/styles.html))
 
 <br>
 <a name="PostMan"></a>
