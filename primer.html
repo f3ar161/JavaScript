@@ -85,12 +85,41 @@
             hermanos:[
                 {nombre: 'fatima',apellido: 'molina'},{nombre: 'diana',apellido:'molina'}
                 
-            ]
+            ],
+            getNombre:function () {
+            return this.nombre;
+            },
+            
+            getApellido:function () {
+            return this.apellido;
+            },
+            setApellido:function (nuevoApellido) {
+            return this.apellido = nuevoApellido;
+            }
+        
             
         }
         console.log(angel);
         console.log(angel.length);
-    
+        
+        console.log('acceder al nombre');
+        console.log(angel.nombre);
+        console.log('acceder al apellido');
+        console.log(angel.apellido);
+        console.log('Uso de la funcion dentro');
+        console.log(angel.getNombre());
+        console.log('Seteo de apellido');
+        angel.setApellido('Ortiz');
+        console.log(angel.apellido);
+        
+        
+        //funcionesAngel
+        function getNombre(){
+            return angel.nombre;
+        }
+           console.log('Uso de la funcion');
+                console.log(getNombre());
+        
     
 //        <angel>
 //        <nombre>Angel</nombre>
