@@ -1,4 +1,4 @@
-# css
+# Estilos en HTML
 
 ### Materia : `Tecnologías Web con JavaScript`
 
@@ -6,7 +6,7 @@
 <img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="200" height="150">
 </p>
 
-### Tema : `CSS` 
+### Tema : `Estilos en HTML` 
 ### Fecha : `2016-11-1`
 ### Estudiante : `Angel Enrique Molina Ortiz`
 ### Profesor : `Tania Calle - Adrian Eguez`
@@ -33,14 +33,14 @@
 
 <a name="tema"></a>
 ## Tema
-El tema de la práctica es: `CSS`
+El tema de la práctica es: `Estilos en HTML`
 
 <a name="objetivos"></a>
 ## Objetivos
 
-- Comprender el funcionamiento y desarrollo de contenido Web
-- Entender las herramientas que se utilizan en el desarrollo web como: PostMan, Brackets, entre otras.
-- Desarrollar las habilidades de de programacion en JavaScript, HTML.
+- Aprender el uso de estilos en HTML
+- Entender las herramientas que se utilizan en el desarrollo web como: AngularJS, BOOTSTRAP, ENTRE OTRAS.
+- Desarrollar una buena apreciacion para aplicar estilos a las paginas web.
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
@@ -88,66 +88,6 @@ Las hojas de estilo representan un avance importante para los diseñadores de p�
 (Fuente: [html.conclase](http://html.conclase.net/w3c/html401-es/present/styles.html))
 
 <br>
-<a name="PostMan"></a>
-### PostMan
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/logopostman.png" width="200" height="200">
-</p>
-Esta herramienta nos permite construir y gestionar de una forma cómoda nuestras peticiones a servicios REST (Post,Get,etc). Su manejo es realmente intuitivo ya que simplemente tenemos que definir la petición que queremos realizar.
-
-(Fuente: [Genbetadev](http://www.genbetadev.com/herramientas/chrome-rest-y-postman))
-
-<br>
-<a name="WWW"></a>
-### World Wide Web
-<p align="center">
-<img src="http://previews.123rf.com/images/madmaxer/madmaxer1009/madmaxer100900101/7744563-ilustraci-n-3d-abstracto-de-globo-terr-queo-con-el-texto-World-Wide-Web--Foto-de-archivo.jpg" width="200" height="200">
-</p>
-
-En informática, la World Wide Web (WWW) o red informática mundial1 es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
-
-(Fuente: [Wikipedia](https://es.wikipedia.org/wiki/World_Wide_Web))
-
-<br>
-<a name="W3C"></a>
-### W3c
-<p align="center">
-<img src="https://www.todosobrehosting.com/wp-content/uploads/2010/04/W3C-World-Web-Consortium.gif" width="300" height="200">
-</p>
-
-El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones, personal a tiempo completo y el público en general trabajan conjuntamente para desarrollar estándares Web. Liderado por el inventor de la Web Tim Berners-Lee y el Director Ejecutivo (CEO) Jeffrey Jaffe, la misión del W3C es guiar la Web hacia su máximo potencial.
-
-(Fuente: [w3c](http://www.w3c.es/Consorcio/))
-
-<br>
-<a name="Doctype"></a>
-### Doctype
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/doctype.jpg" width="300" height="100">
-</p>
-El Doctype o “Declaración del tipo de documento” es una instrucción especial que va al inicio de nuestro documento HTML y que permite al navegador entender qué versión de HTML estamos utilizando. Esta información determinará la manera en la que el navegador procesará el documento, un DOCTYPE distinto podría implicar hasta una visualización diferente del sitio web dentro del mismo navegador.
-
-(Fuente: [devcode](https://devcode.la/tutoriales/doctype-que-es-y-para-que-sirve/))
-
-<br>
-<a name="npm"></a>
-### Npm
-
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/node.png" width="300" height="200">
-</p>
-A pesar de la complicada e interesante descripción del origen de “npm”, definitivamente npm es el director de la orquesta cuando se refiere a el manejo de dependencias o módulos en node.js, los uso más comunes son para:
-
-- Publicar
-- Descubrir
-- Instalar
-- Desarrollar programas en node
-
-Es la herramienta perfecta y necesaria en cuando a manejo de dependencias se refiere.
-(Fuente: [nodehispano](http://www.nodehispano.com/2012/04/una-introduccion-a-npm-nodejs/))
-
-<br>
-
 <a name="css"></a>
 ### CSS
 <p align="center">
