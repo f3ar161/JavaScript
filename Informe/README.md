@@ -22,11 +22,6 @@
   * <a href="#angular">ANGULARJS</a>
   * <a href="#BOOTSTRAP">BOOTSTRAP</a>
   * <a href="#HOJAESTILO">HOJA DE ESTILO</a>
-  * <a href="#PostMan">PostMan</a>
-  * <a href="#WWW">World Wide Web</a>
-  * <a href="#W3C">W3C</a>
-  * <a href="#Doctype">Doctype</a>
-  * <a href="#npm">Npm</a>
   * <a href="#css">CSS</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
@@ -102,8 +97,11 @@ CSS es un lenguaje utilizado en la presentación de documentos HTML. Un document
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
-Para el desarrollo de la practica se procede a instalar la extension emmet en bracket.
+Para el desarrollo de la practica se procede utilizar la hoja de estilos de bootstrap, en el head del HTML procedemos a ingresar la siguiente styleshit:
 
+```
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+```
 <p align="center">
 <img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/emmet.png" width="800" height="500">
 </p>
