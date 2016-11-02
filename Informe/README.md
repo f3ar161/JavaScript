@@ -273,22 +273,20 @@ A continuación, se muestra un contenedor realizado conjuntamente con emmet para
         <h1>Hola estoy dentro del div</h1>
     </div>
 ```
-
 - Resultado en el navegador
 <br>
 <p align="center">
 <img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/contenedor%20resultado.PNG" width="600" height="500">
 </p>
-
 <br>
 <a href="#cabecera">A la cabecera</a>
 
 ## Conclusiones y Recomendaciones
 
-- Gracias a la practica realizada se logra entender el funcionamiento del navegador y la web
-- Utilizar extensiones como emmet y beautify sirven para reducir tiempos de desarrollo, permitiendos realizar mayor cantidad de trabajo.
-- El lenguaje Markdown nos permite crear archivos ligeros que sean legibles y faciles de entender. 
-- Herramientas de desarrollo como PostMan nos permiten obtener datos normalizados .json o .xml
+- El uso de estilos .css nos permite separar el contenido y mejorar la presentación de nuestros HTML.
+- Bootstrap es altamente aceptado dentro de la comunidad web, tiene un connjunto de buenas practicas, entre la mas destacada tiene el Grid System visto en la practica.
+- El manejo de los comentarios dentro HTML nos ayuda a recordanos como utilizar los comandos de emmet para la creacion de las filas y las columnas. 
+- El uso del framework bootstrap para el desarrollo fron end nos permite tener una mayor rapidez y comodidad al momento de crear sitios web.
 
 <br>
 <a href="#cabecera">A la cabecera</a>
