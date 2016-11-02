@@ -154,110 +154,18 @@ Dentro del archivo .css el codigo la sintaxis del codigo va como se muestra en l
 <img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/estilos%20navegacion2.PNG" width="500" height="300">
 </p>
 
-En la creacion de este HTML se contemplo varios conceptos, como el manejo del colores, redireccion de paginsa, imagens con links, titulos y manejo de listas tanto ordenadas como no ordenadas. 
+Dentro del `<head>` del HTML va la URL del archivo de estilos. 
 
-
-Código para el manejo de estilos.
+- Código
 ```
-style="background-color: pink" 
-```
-
-Título con redirección.
-```
-<h3><a href="https://es.wikipedia.org/wiki/Saint_Seiya" target="_blank">Link del papu</a></h3> 
+<link rel="stylesheet" href="html/estilos/estilos2/estilos3/estilos.css">
 ```
 
-Imagenes con redirección
+Para el manejo de contenedores se utiliza BootStrap agregamos el CDN de bootstrap
+- Link agregado
 ```
-<a href="https://es.wikipedia.org/wiki/Saint_Seiya">
-<img border="0" alt="el papu" src="http://file.saintseiya-gold.com/global/common/img/story/seiya_s11_2.jpg" width="300" height="300">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 ```
-##Código fuente del HTML
-```
-<!DOCTYPE html>
-<html lang="en" style="background-color: #00bcd4">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Aprendiendo HTML</title>
-</head>
-
-<body style="background-color: pink">
-    <h1>Cabecera grande</h1>
-    <<h2>Cabecera menos grande</h2>
-        <h3>Cabecera menos menos grande</h3>
-
-        <h3><a href="https://es.wikipedia.org/wiki/Saint_Seiya" target="_blank">Link del papu</a></h3>
-        <h2>Caballeros del Zodiaco</h2>
-        <a href="https://es.wikipedia.org/wiki/Saint_Seiya">
-            <img border="0" alt="el papu" src="http://file.saintseiya-gold.com/global/common/img/story/seiya_s11_2.jpg" width="300" height="300">
-        </a>
-        <p>aint Seiya (聖闘士星矢, Seinto Seiya?), conocido en español como Los Caballeros del Zodiaco, es un manga shōnen creado en 1986 por Masami Kurumada y publicado originalmente desde enero del mismo año en la revista Shūkan Shōnen Jump de la editorial Shūeisha hasta diciembre de 1990. Fue adaptado posteriormente en una serie de anime de 145 episodios. También se han producido cinco películas animadas y una película con animación CG, además de varias precuelas y secuelas oficiales de la historia original. Se publicaron 108 tomos del manga junto con una edición especial, haciendo un total de 109 en formato Tankoubon, dividido en 28 volúmenes con tres series principales: Santuario, Poseidón y Hades. Ha sido reimpreso y reeditado en formato Wideban, Bunkoban y Kanzenban y también el llamado "Remix", la producción en tres ediciones (2002, 2007 y 2012).</p>
-
-        <!--lista no ordenada></!-->
-        <!--usando emmet tab></!-->
-        <ul>
-            <li>un papu </li>
-            <li>dos papus</li>
-            <li>tres papus</li>
-        </ul>
-
-        <ol>
-            <li>un gato </li>
-            <li>dos gatos </li>
-            <li>tres gatos</li>
-        </ol>
-</body>
-
-</html>
-
-```
-<br>
-### Resultado en el navegador
-
-
-<br>
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/html%20resultado.PNG" width="800" height="500">
-</p>
-
-<br>
-
-Manejo de colores desde el navegador. 
-El uso de colores para cambiar los estilos resulta mas facil desde el navegor, inspeccionado el elemento con F12, simplemente se copia el codigo de color del elemento como se muestra a continuación.
-
-<br>
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/elementos%20del%20html.PNG" width="900" height="600">
-</p>
-
-# Manejo de PostMan
-Postman permite obtener información mediante varios metodos como GET, POST, entre otros. 
-Para su utilizacion ingresamos una url por ejemplo:
-Se desea obtener la información de un pokemón.
-
-- Parametros necesarios (el número del pokemón deseado - 100)
-```
-http://pokeapi.co/api/v2/pokemon/100/
-```
-Resultado
-<br>
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/PostMan.PNG" width="900" height="600">
-</p>
-
-El uso de PostMan sirve para obtener archivos .json a partir de urls con metodos get y pos. 
-
-# Inspección de elementos en el navegador
-
-Dentro de la inspección de elementos se puede visualizar el tiempo de carga de nuestra pagina, esto sirve para establecer buenas practicas de desarrollo y que la pagina Web no se demore mas de lo debido.
-
-<br>
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/trafico.PNG" width="900" height="600">
-</p>
-
-<a name="conrec"></a>
 
 <br>
 <a href="#cabecera">A la cabecera</a>
