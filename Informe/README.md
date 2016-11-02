@@ -98,6 +98,15 @@ CSS es un lenguaje utilizado en la presentación de documentos HTML. Un document
 ## Desarrollo del informe
 
 Como primer paso se realiza el uso de estilos en cascada, este es de gran utilidad cuando se desea aplicar varios estilos a diferentes tags dentro del HTML.
+- Codigo ejemplo 
+  <br>
+  ```
+  <Style>
+    .borde{
+        border: black solid 2px;
+    }
+  </Style>
+  ```
 
 <p align="center">
 <img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/estilos%20cascada.PNG" width="800" height="600">
