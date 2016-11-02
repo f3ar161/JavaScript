@@ -166,16 +166,15 @@ Para el manejo de contenedores se utiliza BootStrap agregamos el CDN de bootstra
 ```
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 ```
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/contbootstrap.PNG" width="700" height="160">
+</p>
+
 CDN es una red  que comhparte archivos, estos CDN estan cargados en diferentes lugares. 
 <br>
 <p align="center">
 <img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/img3p2.png" width="800" height="300">
-</p>
-
-No se puede manejar mas alla de la carpeta del servidor por motivos de seguridad.
-<br>
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/contbootstrap.PNG" width="700" height="160">
 </p>
 
 Se puede utilizar mediaQuery para cambiar de color de acuerdo al tamaño.
@@ -190,8 +189,20 @@ Aplicando div:hover (transiciones que les da tiemhpo desde un color a otro color
 <img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/img2p2.png" width="800" height="300">
 </p>
 
+Se puede visualizar la carga del css desde con bootstrap desde el navegador inspecionando el elemendo, mediante esto podemos visualizar cuanto se demora en visualizar los estilos de la página.
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/img4p2.png" width="800" height="300">
+</p>
 
-Para el manejo de las rejillas
+Para el manejo de las rejillas junto con bootstrap, se debe tener en cuenta que bootstrap suministra un sistema de grid de 12 columnas, lo que se conoce como mobile first grid, diseñada totalmente para trabajar primeramente  para pantalla pequeñas de dispositivos móviles y en segunda instancia en pantallas de mayor tamaño. 
+
+A continuación, se muestra un contenedor realizado conjuntamente con emmet para agilizar el proceso. 
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/contenedor.PNG" width="500" height="900">
+</p>
+
 <br>
 <a href="#cabecera">A la cabecera</a>
 
