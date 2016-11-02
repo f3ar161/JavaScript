@@ -174,7 +174,7 @@ Para el manejo de contenedores se utiliza BootStrap agregamos el CDN de bootstra
 CDN es una red  que comhparte archivos, estos CDN estan cargados en diferentes lugares. 
 <br>
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/img3p2%20-%20copia.png" width="800" height="300">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/img3p2%20-%20copia.png" width="800" height="500">
 </p>
 
 Se puede utilizar mediaQuery para cambiar de color de acuerdo al tamaño.
