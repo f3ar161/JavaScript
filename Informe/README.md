@@ -147,12 +147,11 @@ Para utilizar los estios desde un archivos tenemos que crear un archivo con nomb
 Estos archivos pueden estar dentro de una carpeta que se llame estilos o bien fuera junto al HTML, se debe tomar que este bien referenciada la ubicación hacia el archivo .css
 
 
-Los dos Tags mas importantes son el Body y el Head
-Una vez que tenemos el cuerpo del HTML podemos empezar a realizar un ejemplo de pagina web.
+Dentro del archivo .css el codigo la sintaxis del codigo va como se muestra en la imagen:
 
 <br>
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/codigo.png" width="400" height="250">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/estilos%20navegacion.PNG" width="500" height="300">
 </p>
 
 En la creacion de este HTML se contemplo varios conceptos, como el manejo del colores, redireccion de paginsa, imagens con links, titulos y manejo de listas tanto ordenadas como no ordenadas. 
