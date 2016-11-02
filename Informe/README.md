@@ -98,7 +98,7 @@ CSS es un lenguaje utilizado en la presentación de documentos HTML. Un document
 ## Desarrollo del informe
 
 Como primer paso se realiza el uso de estilos en cascada, este es de gran utilidad cuando se desea aplicar varios estilos a diferentes tags dentro del HTML.
-- Codigo ejemplo 
+- Código ejemplo 
   <br>
   ```
   <Style>
@@ -113,15 +113,22 @@ Como primer paso se realiza el uso de estilos en cascada, este es de gran utilid
 </p>
 
 A continuacion se utilizan clases para definir estilos que nosotros deseemos.
-- Codigo
+- Código
 <br>
   ```
   .nombreClaseAzul{background-color: #0037ff;}
   ```
   
+ 
 Establece el color desea para la clase de nombre 'nombreClaseAzul'.
 
-
+Para utilizar estilos a través de in 'id'. 
+- Código
+  ```
+   #parrafoverde{
+      background-color: #8a2419;
+   }
+  ```
 - Emmet 
   * `<! + TAB`
 <br>
