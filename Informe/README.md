@@ -203,6 +203,83 @@ A continuación, se muestra un contenedor realizado conjuntamente con emmet para
 <img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/contenedor.PNG" width="500" height="900">
 </p>
 
+- Código
+```
+<!--    .container -->
+    <div class="container" style="background-color:yellow;">
+        <!--       .row*3-->
+        <div class="row" style="background-color:green;">
+            <!--
+                1 1 1 1 1 1 1 1 1 1 1 1 = 12
+                2 2 2 2 2 2 = 12
+                3 3 3 3 = 12
+                3 2 3 1 3 = 12
+            -->
+            <!-- .col-md-4*3>h2 EMMET -->
+            <h1>Fila1</h1>
+            <!-- md con 980 se hpace chpiquito-->
+            <div class="col-md-4 borde">
+                <h2>Columna md 4 - 1</h2>
+            </div>
+            <div class="col-md-4 borde">
+                <h2>Columna md 4 - 2</h2>
+            </div>
+            <div class="col-md-4 borde">
+                <h2>Columna md 4 - 3</h2>
+            </div>
+        </div>
+
+        <div class="row" style="background-color:#7979f3;">
+            <h1>Fila2</h1>
+            <!--  .col-sm-3.borde*4>h3 -->
+            <!-- md con 680 se hpace chpiquito-->
+            <div class="col-sm-3 borde">
+                <h3>CSM3-1</h3>
+            </div>
+            <div class="col-sm-3 borde">
+                <h3>CSM3-2</h3>
+            </div>
+            <div class="col-sm-3 borde">
+                <h3>CSM3-3</h3>
+            </div>
+            <div class="col-sm-3 borde">
+                <h3>CSM3-4</h3>
+            </div>
+
+        </div>
+
+        <div class="row" style="background-color:red;">
+
+            <h1>Fila3</h1>
+            <!--            .col-lg-6.borde*2>h3-->
+
+            <div class="col-lg-6 borde">
+                <h3>GLC-1</h3>
+            </div>
+            <div class="col-lg-6 borde">
+                <h3>GLC-2</h3>
+            </div>
+
+        </div>
+        <!--.row>col-xs-2.borde+.col-xs-5.border*2-->
+
+        <div class="row">
+            <col-xs-2 class="borde"></col-xs-2>
+            <div class="col-xs-5 border">
+                <h3>GLC-1</h3></div>
+            <div class="col-xs-5 border">
+                <h3>GLC-1</h3></div>
+        </div>
+        <h1>Hola estoy dentro del div</h1>
+    </div>
+```
+
+- Resultado en el navegador
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/contenedor%20resultado.PNG" width="600" height="500">
+</p>
+
 <br>
 <a href="#cabecera">A la cabecera</a>
 
