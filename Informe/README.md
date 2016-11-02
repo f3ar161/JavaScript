@@ -168,6 +168,12 @@ Para el manejo de contenedores se utiliza BootStrap agregamos el CDN de bootstra
 ```
 
 <br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/contbootstrap.PNG" width="500" height="160">
+</p>
+
+
+<br>
 <a href="#cabecera">A la cabecera</a>
 
 ## Conclusiones y Recomendaciones
