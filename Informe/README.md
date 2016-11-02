@@ -151,7 +151,7 @@ Dentro del archivo .css el codigo la sintaxis del codigo va como se muestra en l
 
 <br>
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/estilos%20navegacion.PNG" width="500" height="300">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/estilos%20navegacion2.PNG" width="500" height="300">
 </p>
 
 En la creacion de este HTML se contemplo varios conceptos, como el manejo del colores, redireccion de paginsa, imagens con links, titulos y manejo de listas tanto ordenadas como no ordenadas. 
