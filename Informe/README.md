@@ -166,13 +166,29 @@ Para el manejo de contenedores se utiliza BootStrap agregamos el CDN de bootstra
 ```
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 ```
+No se puede manejar mas alla de la carpeta del servidor por motivos de seguridad.
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/contbootstrap.PNG" width="700" height="160">
+</p>
+
+Se puede utilizar mediaQuery para cambiar de color de acuerdo al tamaño.
+
 
 <br>
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/contbootstrap.PNG" width="500" height="160">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/imgp2.png" width="800" height="300">
+</p>
+
+Aplicando div:hover (transiciones que les da tiemhpo desde un color a otro color o de tamano utilizando css). 
+
+<br>
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/img2p2.png" width="800" height="300">
 </p>
 
 
+Para el manejo de las rejillas
 <br>
 <a href="#cabecera">A la cabecera</a>
 
