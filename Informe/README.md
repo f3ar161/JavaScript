@@ -112,7 +112,15 @@ Como primer paso se realiza el uso de estilos en cascada, este es de gran utilid
 <img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/estilos%20cascada.PNG" width="800" height="600">
 </p>
 
-Gracias a emmet se puede mermar el tiempo de trabajo. Se puede establecer el cuerpo del HTML de manera eficiente.
+A continuacion se utilizan clases para definir estilos que nosotros deseemos.
+- Codigo
+<br>
+  ```
+  .nombreClaseAzul{background-color: #0037ff;}
+  ```
+  
+Establece el color desea para la clase de nombre 'nombreClaseAzul'.
+
 
 - Emmet 
   * `<! + TAB`
