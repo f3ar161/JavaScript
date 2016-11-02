@@ -113,28 +113,39 @@ Como primer paso se realiza el uso de estilos en cascada, este es de gran utilid
 </p>
 
 A continuacion se utilizan clases para definir estilos que nosotros deseemos.
-- Código
+- Código dentro del `<head>`
 <br>
   ```
   .nombreClaseAzul{background-color: #0037ff;}
   ```
-  
+
+- Código dentro del `<body>`
+  ```
+   <h1 class="nombreClaseAzul">Clase de CSS</h1>
+  ```
  
 Establece el color desea para la clase de nombre 'nombreClaseAzul'.
 
 Para utilizar estilos a través de in 'id'. 
-- Código
+- Código dentro del `<head>`
   ```
    #parrafoverde{
       background-color: #8a2419;
    }
   ```
-- Emmet 
-  * `<! + TAB`
+- Código dentro del `<body>`
+  ```
+   <p id="parrafoverde" class="nombreClaseVerde" ">Parrafo tres</p>
+  ```
+  
+Para utilizar los estios desde un archivos tenemos que crear un archivo con nombre y extension .css
 <br>
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/html.PNG" width="400" height="250">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/extcss.PNG" width="400" height="250">
 </p>
+
+Estos archivos pueden estar dentro de una carpeta que se llame estilos o bien fuera junto al HTML, se debe tomar que este bien referenciada la ubicación hacia el archivo .css
+
 
 Los dos Tags mas importantes son el Body y el Head
 Una vez que tenemos el cuerpo del HTML podemos empezar a realizar un ejemplo de pagina web.
