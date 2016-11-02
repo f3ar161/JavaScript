@@ -70,7 +70,7 @@ El beneficio de usar responsive design en un sitio web, es principalmente que el
 <a name="HOJAESTILO"></a>
 ### HOJA DE ESTILO
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/ESTILO.jpg" width="200" height="100">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/ESTILO.jpg" width="350" height="100">
 </p>
 Las hojas de estilo representan un avance importante para los diseñadores de páginas web, al darles un mayor rango de posibilidades para mejorar la apariencia de sus páginas. En los entornos científicos en que la Web fue concebida, la gente estaba más preocupada por el contenido de sus páginas que por su presentación. A medida que la Web era descubierta por un espectro mayor de personas de distintas procedencias, las limitaciones del HTML se convirtieron en fuente de continua frustración, y los autores se vieron forzados a superar las limitaciones estilísticas del HTML. Aunque las intenciones han sido buenas -- mejorar la presentación de las páginas web --, las técnicas para conseguirlo han tenido efectos secundarios negativos. Entre estas técnicas, que dan buenos resultados para algunas personas, algunas veces, pero no siempre ni para todas las personas, se incluyen:
 
@@ -97,13 +97,10 @@ CSS es un lenguaje utilizado en la presentación de documentos HTML. Un document
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
-Para el desarrollo de la practica se procede utilizar la hoja de estilos de bootstrap, en el head del HTML procedemos a ingresar la siguiente styleshit:
+Como primer paso se realiza el uso de estilos en cascada, este es de gran utilidad cuando se desea aplicar varios estilos a diferentes tags dentro del HTML.
 
-```
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-```
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/01.HTML/Informe/Imagenes/emmet.png" width="800" height="500">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/estilos%20cascada.PNG" width="800" height="600">
 </p>
 
 Gracias a emmet se puede mermar el tiempo de trabajo. Se puede establecer el cuerpo del HTML de manera eficiente.
