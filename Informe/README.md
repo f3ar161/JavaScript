@@ -174,19 +174,19 @@ Para el manejo de contenedores se utiliza BootStrap agregamos el CDN de bootstra
 CDN es una red  que comhparte archivos, estos CDN estan cargados en diferentes lugares. 
 <br>
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/img3p2.png" width="800" height="300">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/img3p2%20-%20copia.png" width="800" height="300">
 </p>
 
 Se puede utilizar mediaQuery para cambiar de color de acuerdo al tamaño.
 <br>
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/imgp2.png" width="800" height="300">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/imgp2%20-%20copia.png" width="800" height="300">
 </p>
 
 Aplicando div:hover (transiciones que les da tiemhpo desde un color a otro color o de tamano utilizando css). 
 <br>
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/img2p2.png" width="800" height="300">
+<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/img2p2%20-%20copia.png" width="800" height="300">
 </p>
 
 Se puede visualizar la carga del css desde con bootstrap desde el navegador inspecionando el elemendo, mediante esto podemos visualizar cuanto se demora en visualizar los estilos de la página.
