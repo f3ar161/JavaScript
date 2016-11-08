@@ -131,6 +131,11 @@ A continuación, se debe buscar una libreria css que cumpla con los estandares. 
 <img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/validator.PNG" width="800" height="600">
 </p>
 
+* Se debe saber que tipo de Hardware se esta utilizando.
+
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/webprovider.png" width="800" height="600">
+</p>
 
 
 <br>
