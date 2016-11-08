@@ -6,135 +6,135 @@
     <title>JavaScript</title>
     <script>
         /*
-                alert('hola');
-                console.log('♥ Hola papu');
+                        alert('hola');
+                        console.log('♥ Hola papu');
 
-                var texto = "Texto";
-                console.log(texto);
+                        var texto = "Texto";
+                        console.log(texto);
 
-                var numero = 1;
-                console.log(numero);
+                        var numero = 1;
+                        console.log(numero);
 
-                var texNumero = "2";
-                console.log('valor cuando es string');
-                console.log(texNumero);
+                        var texNumero = "2";
+                        console.log('valor cuando es string');
+                        console.log(texNumero);
 
-                var float = 1.234;
-                console.log(float);
-                texNumero = float
-                console.log('valor cuando es float');
-                console.log(texNumero);
+                        var float = 1.234;
+                        console.log(float);
+                        texNumero = float
+                        console.log('valor cuando es float');
+                        console.log(texNumero);
 
-                var booleanTrue = true;
+                        var booleanTrue = true;
 
-                console.log(booleanTrue);
-                texNumero = float
-                console.log('valor cuando es true');
-                console.log(texNumero);
+                        console.log(booleanTrue);
+                        texNumero = float
+                        console.log('valor cuando es true');
+                        console.log(texNumero);
 
-                var booleanfalse = false;
-                console.log(booleanfalse);
-                texNumero = float
-                console.log('valor cuando es flase');
-                console.log(texNumero);
+                        var booleanfalse = false;
+                        console.log(booleanfalse);
+                        texNumero = float
+                        console.log('valor cuando es flase');
+                        console.log(texNumero);
 
-                var varNull = null;
-                console.log(varNull);
-                texNumero = float
-                console.log('valor cuando es null');
-                console.log(texNumero);
+                        var varNull = null;
+                        console.log(varNull);
+                        texNumero = float
+                        console.log('valor cuando es null');
+                        console.log(texNumero);
 
-                var varUndefined = undefined;
-                console.log(varUndefined);
-                texNumero = float
-                console.log('valor cuando es undefined');
-                console.log(texNumero);
+                        var varUndefined = undefined;
+                        console.log(varUndefined);
+                        texNumero = float
+                        console.log('valor cuando es undefined');
+                        console.log(texNumero);
 
-                var arregloString = ['1', '2', '3'];
-                console.log(arregloString);
+                        var arregloString = ['1', '2', '3'];
+                        console.log(arregloString);
 
-                var arregloNumeros = [1, 2, 3];
-                console.log(arregloNumeros);
+                        var arregloNumeros = [1, 2, 3];
+                        console.log(arregloNumeros);
 
-                var arregloFloat = [1.1, 2.2, 3.3];
-                console.log(arregloFloat);
+                        var arregloFloat = [1.1, 2.2, 3.3];
+                        console.log(arregloFloat);
 
-                var arregloBooleano = [false, true, false];
-                console.log(arregloBooleano);
+                        var arregloBooleano = [false, true, false];
+                        console.log(arregloBooleano);
 
-                var arregloNull = [null, null, null];
-                console.log(arregloNull);
+                        var arregloNull = [null, null, null];
+                        console.log(arregloNull);
 
-                var arregloUndefined = [undefined, undefined, undefined];
-                console.log(arregloUndefined);
+                        var arregloUndefined = [undefined, undefined, undefined];
+                        console.log(arregloUndefined);
 
-                //         var arregloUndefined = [undefined,undefined,undefined];  ctrl + / 
-                //        console.log(arregloUndefined);
+                        //         var arregloUndefined = [undefined,undefined,undefined];  ctrl + / 
+                        //        console.log(arregloUndefined);
 
-                var arregloTodo = [undefined, true, 1, false, 1.222222, 'Papu'];
-                console.log(arregloTodo);
-                console.log(arregloTodo.length);
+                        var arregloTodo = [undefined, true, 1, false, 1.222222, 'Papu'];
+                        console.log(arregloTodo);
+                        console.log(arregloTodo.length);
 
 
-                //objetos
+                        //objetos
 
-                var angel = {
-                    'nombre': 'Angel',
-                    'apellido': 'Molina',
-                    edad: 27,
-                    mascotas: ['Cachetes', 'Oso', 'BJ'],
-                    hermanos: [
-                        {
-                            nombre: 'fatima',
-                            apellido: 'molina'
-                        }, {
-                            nombre: 'diana',
-                            apellido: 'molina'
+                        var angel = {
+                            'nombre': 'Angel',
+                            'apellido': 'Molina',
+                            edad: 27,
+                            mascotas: ['Cachetes', 'Oso', 'BJ'],
+                            hermanos: [
+                                {
+                                    nombre: 'fatima',
+                                    apellido: 'molina'
+                                }, {
+                                    nombre: 'diana',
+                                    apellido: 'molina'
+                                }
+
+                            ],
+                            getNombre: function () {
+                                return this.nombre;
+                            },
+
+                            getApellido: function () {
+                                return this.apellido;
+                            },
+                            setApellido: function (nuevoApellido) {
+                                return this.apellido = nuevoApellido;
+                            }
+
+
                         }
+                        console.log(angel);
+                        console.log(angel.length);
 
-                    ],
-                    getNombre: function () {
-                        return this.nombre;
-                    },
-
-                    getApellido: function () {
-                        return this.apellido;
-                    },
-                    setApellido: function (nuevoApellido) {
-                        return this.apellido = nuevoApellido;
-                    }
-
-
-                }
-                console.log(angel);
-                console.log(angel.length);
-
-                console.log('acceder al nombre');
-                console.log(angel.nombre);
-                console.log('acceder al apellido');
-                console.log(angel.apellido);
-                console.log('Uso de la funcion dentro');
-                console.log(angel.getNombre());
-                console.log('Seteo de apellido');
-                angel.setApellido('Ortiz');
-                console.log(angel.apellido);
+                        console.log('acceder al nombre');
+                        console.log(angel.nombre);
+                        console.log('acceder al apellido');
+                        console.log(angel.apellido);
+                        console.log('Uso de la funcion dentro');
+                        console.log(angel.getNombre());
+                        console.log('Seteo de apellido');
+                        angel.setApellido('Ortiz');
+                        console.log(angel.apellido);
 
 
-                //funcionesAngel
-                function getNombre() {
-                    return angel.nombre;
-                }
-                console.log('Uso de la funcion');
-                console.log(getNombre());
+                        //funcionesAngel
+                        function getNombre() {
+                            return angel.nombre;
+                        }
+                        console.log('Uso de la funcion');
+                        console.log(getNombre());
 
 
-                //        <angel>
-                //        <nombre>Angel</nombre>
-                //        <apellido>Molina</apellido>
-                //        <edad>24</edad>
-                //    </angel>
-                //    
-        */
+                        //        <angel>
+                        //        <nombre>Angel</nombre>
+                        //        <apellido>Molina</apellido>
+                        //        <edad>24</edad>
+                        //    </angel>
+                        //    
+                */
 
         var count = 10;
         var arregloNumero = [];
@@ -201,34 +201,46 @@
         */
         /*3 parametros y multiplicarlos*/
         console.log('Pato');
-                /*function multiplicarTres(parametro1,parametro2,parametro3){
+        /*function multiplicarTres(parametro1,parametro2,parametro3){
                     return parametro1*parametro2*parametro3;
                 }      
         
                 console.log(multiplicarTres(1,2,3));
                 */
 
-                function mayorMenor(n1, n2) {
-                    if (n1>n2){
-                        console.log(n1);
-                        return n1;
-                         
-                    }else{
-                        console.log(n2);
-                        return n2;
-                         
-                    }
-                    if (n1=n2){
-                        console.log(n2);
-                        return n2;
-                                
-                    }
-                }
-                    mayorMenor(2,4)
-                        
-        
+        function mayorMenor(n1, n2) {
+            if (n1 > n2) {
+                console.log(n1);
+                return n1;
 
-                
+            } else {
+                console.log(n2);
+                return n2;
+
+            }
+            if (n1 = n2) {
+                console.log(n2);
+                return n2;
+
+            }
+        }
+        mayorMenor(2, 4)
+
+        function mystery(x, y) {
+
+            var a = 4 * x * y;
+            var b = 3 * y + 5;
+            var c = (4 * x * y) + (3 * y + 5);
+            return c;
+        }
+        console.log(mystery(2, 3));
+        
+        function feedPerRanger(rangers, sheeps) {
+            sheeps=sheeps*2;
+            return respuesta= alert ('Numero de ovejitas para rangers = '+ sheeps/rangers);
+        }
+        feedPerRanger(2,4);
+        
     </script>
 
 
