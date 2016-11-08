@@ -197,7 +197,7 @@ Código:
 Imagen:
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/conteinerbootstrap.PNG" width="800" height="200">
+<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/conteinerbootstrap.PNG" width="800" height="150">
 </p>
 
 Manejo de inputs con bootstrap: 
@@ -216,7 +216,7 @@ Código
 Imagen:
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/inputBootstrap.PNG" width="800" height="300">
+<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/inputBootstrap.PNG" width="800" height="150">
 </p>
 
 
