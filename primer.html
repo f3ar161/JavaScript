@@ -127,9 +127,40 @@
 //        <edad>24</edad>
 //    </angel>
 //    
+        var count =10;
+        while(count>0){
+            
+            console.log(count);
+            count--;  
+        }
+        
+        console.log('Se acaba');
+ 
+            
+        var count =10;
+        var arregloNumero =[];
+        var arregloVacio =[];
+        while(count>0){
+            if (count %2==0){
+                console.log('el numero es '+ count+' es par' );
+              }else{
+                 console.log('el numero es '+ count+' es impar' );
+                 arregloNumero.push(count);
+                  count--;
+              }
+            arregloNumero.pop();
+            arregloNumero.splice(3,1,11);
+            
+            console.log('se acaba');
+            console.log(arregloNumero);
+            
+          
+        }
+        
     </script>
     
-    
+
+            
 </head>
 
 <body>
