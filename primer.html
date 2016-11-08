@@ -133,55 +133,66 @@
         //        <edad>24</edad>
         //    </angel>
         //    
-    
-        var count =10;
-        var arregloNumero =[];
+
+        var count = 10;
+        var arregloNumero = [];
         var objetoVacio = [];
-        while(count>0){
-            if(count%2==0){
-            console.log('el numero es '+count+ 'es par');
-             
-        }else{
-        console.log('el numero es '+count+ 'es impar');}
-        arregloNumero.push(count);
-        count--;
+        while (count > 0) {
+            if (count % 2 == 0) {
+                console.log('el numero es ' + count + 'es par');
+
+            } else {
+                console.log('el numero es ' + count + 'es impar');
+            }
+            arregloNumero.push(count);
+            count--;
         }
-        
+
         arregloNumero.pop();
-        arregloNumero.splice(3,1,11);
+        arregloNumero.splice(3, 1, 11);
         console.log('Se acaba');
         console.log(arregloNumero);
         console.log('Pato');
-        
-        var arregloNumero =[];
+
+        var arregloNumero = [];
         var objetoVacio = [];
-        for(var count =10;count>0;count--){
-            if(count%2==0){
-            console.log(count);
+        for (var count = 10; count > 0; count--) {
+            if (count % 2 == 0) {
+                console.log(count);
+            }
         }
-        }
-        
+
 
         console.log('Pato');
-        
-        var numSheep=4;
-        var mountNumber=1;
-        var montstoPrint=12;
-        
-        while(mountNumber<=montstoPrint){
-            numSheep=numSheep*4;
-            console.log('deberia haber '+ numSheep+ ' sheeps'+ mountNumber);
+
+        var numSheep = 4;
+        var mountNumber = 1;
+        var montstoPrint = 12;
+
+        while (mountNumber <= montstoPrint) {
+            numSheep = numSheep * 4;
+            console.log('deberia haber ' + numSheep + ' sheeps' + mountNumber);
             mountNumber++;
         }
-        var numSheep=4;
-        var mountNumber=1;
-        var montstoPrint=12;
-        for(mountNumber=1;mountNumber<=montstoPrint;mountNumber++){
-            numSheep=numSheep*4;
-            console.log('deberia haber '+ numSheep+ ' sheeps'+ mountNumber);
+        var numSheep = 4;
+        var mountNumber = 1;
+        var medio;
+        var montstoPrint = 12;
+        for (mountNumber = 1; mountNumber <= montstoPrint; mountNumber++) {
+            numSheep = numSheep * 4;
+            console.log('deberia haber ' + numSheep + ' sheeps' + mountNumber);
+            if (mountNumber%4==0){
+                
+                console.log('Porcentaje de ovejitas ' + numSheep*0.75 );
+                numSheep=numSheep-(numSheep*0.75);
+                console.log('Texto ' + numSheep);
+            }else if (numSheep>10000){
+                numSheep=numSheep/2;    
+                console.log('Texto -' + numSheep );
+            }
+            
             
         }
-    
     </script>
 
 
