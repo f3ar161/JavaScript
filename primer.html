@@ -6,102 +6,108 @@
     <title>JavaScript</title>
     <script>
         alert('hola');
-        console.log ('♥ Hola papu');
-        
-        var texto="Texto";
+        console.log('♥ Hola papu');
+
+        var texto = "Texto";
         console.log(texto);
-        
-        var numero=1;
+
+        var numero = 1;
         console.log(numero);
-        
-        var texNumero="2";
+
+        var texNumero = "2";
         console.log('valor cuando es string');
         console.log(texNumero);
-        
-        var float=1.234;
+
+        var float = 1.234;
         console.log(float);
-        texNumero=float
+        texNumero = float
         console.log('valor cuando es float');
         console.log(texNumero);
-        
-        var booleanTrue=true;
-        
+
+        var booleanTrue = true;
+
         console.log(booleanTrue);
-        texNumero=float
+        texNumero = float
         console.log('valor cuando es true');
         console.log(texNumero);
-        
-        var booleanfalse=false;
+
+        var booleanfalse = false;
         console.log(booleanfalse);
-        texNumero=float
+        texNumero = float
         console.log('valor cuando es flase');
         console.log(texNumero);
-        
+
         var varNull = null;
         console.log(varNull);
-        texNumero=float
+        texNumero = float
         console.log('valor cuando es null');
         console.log(texNumero);
-        
+
         var varUndefined = undefined;
         console.log(varUndefined);
-        texNumero=float
+        texNumero = float
         console.log('valor cuando es undefined');
         console.log(texNumero);
-        
-        var arregloString = ['1','2','3'];
-        console.log(arregloString);
-        
-        var arregloNumeros = [1,2,3];
-        console.log(arregloNumeros);
-        
-        var arregloFloat = [1.1,2.2,3.3];
-        console.log(arregloFloat);
-        
-        var arregloBooleano = [false,true,false];
-        console.log(arregloBooleano);
-        
-        var arregloNull = [null,null,null];
-        console.log(arregloNull);
-        
-        var arregloUndefined = [undefined,undefined,undefined];
-        console.log(arregloUndefined);
-       
-//         var arregloUndefined = [undefined,undefined,undefined];  ctrl + / 
-//        console.log(arregloUndefined);
 
-        var arregloTodo = [undefined,true,1,false,1.222222,'Papu'];
+        var arregloString = ['1', '2', '3'];
+        console.log(arregloString);
+
+        var arregloNumeros = [1, 2, 3];
+        console.log(arregloNumeros);
+
+        var arregloFloat = [1.1, 2.2, 3.3];
+        console.log(arregloFloat);
+
+        var arregloBooleano = [false, true, false];
+        console.log(arregloBooleano);
+
+        var arregloNull = [null, null, null];
+        console.log(arregloNull);
+
+        var arregloUndefined = [undefined, undefined, undefined];
+        console.log(arregloUndefined);
+
+        //         var arregloUndefined = [undefined,undefined,undefined];  ctrl + / 
+        //        console.log(arregloUndefined);
+
+        var arregloTodo = [undefined, true, 1, false, 1.222222, 'Papu'];
         console.log(arregloTodo);
         console.log(arregloTodo.length);
-        
-        
+
+
         //objetos
-        
+
         var angel = {
             'nombre': 'Angel',
             'apellido': 'Molina',
             edad: 27,
-            mascotas:['Cachetes','Oso','BJ'],
-            hermanos:[
-                {nombre: 'fatima',apellido: 'molina'},{nombre: 'diana',apellido:'molina'}
-                
+            mascotas: ['Cachetes', 'Oso', 'BJ'],
+            hermanos: [
+                {
+                    nombre: 'fatima',
+                    apellido: 'molina'
+                }, {
+                    nombre: 'diana',
+                    apellido: 'molina'
+                }
+
             ],
-            getNombre:function () {
-            return this.nombre;
+            getNombre: function () {
+                return this.nombre;
             },
-            
-            getApellido:function () {
-            return this.apellido;
+
+            getApellido: function () {
+                return this.apellido;
             },
-            setApellido:function (nuevoApellido) {
-            return this.apellido = nuevoApellido;
+            setApellido: function (nuevoApellido) {
+                return this.apellido = nuevoApellido;
             }
-        
-            
+
+
         }
         console.log(angel);
         console.log(angel.length);
-        
+
         console.log('acceder al nombre');
         console.log(angel.nombre);
         console.log('acceder al apellido');
@@ -111,60 +117,67 @@
         console.log('Seteo de apellido');
         angel.setApellido('Ortiz');
         console.log(angel.apellido);
-        
-        
+
+
         //funcionesAngel
-        function getNombre(){
+        function getNombre() {
             return angel.nombre;
         }
-           console.log('Uso de la funcion');
-                console.log(getNombre());
-        
-    
-//        <angel>
-//        <nombre>Angel</nombre>
-//        <apellido>Molina</apellido>
-//        <edad>24</edad>
-//    </angel>
-//    
-        var count =10;
-        while(count>0){
-            
-            console.log(count);
-            count--;  
-        }
-        
-        console.log('Se acaba');
- 
-            
-        var count =10;
-        var arregloNumero =[];
-        var arregloVacio =[];
-        while(count>0){
-            if (count %2==0){
-                console.log('el numero es '+ count+' es par' );
-              }else{
-                 console.log('el numero es '+ count+' es impar' );
-                 arregloNumero.push(count);
-                  count--;
-              }
-            arregloNumero.pop();
-            arregloNumero.splice(3,1,11);
-            
-            console.log('se acaba');
-            console.log(arregloNumero);
-            
-          
-        }
-        
-    </script>
-    
+        console.log('Uso de la funcion');
+        console.log(getNombre());
 
+
+        //        <angel>
+        //        <nombre>Angel</nombre>
+        //        <apellido>Molina</apellido>
+        //        <edad>24</edad>
+        //    </angel>
+        //    
+    
+        var count =10;
+         var arregloNumero =[];
+         var objetoVacio = [];
+        while(count>0){
+            if(count%2==0){
+            console.log('el numero es '+count+ 'es par');
+             
+        }else{
+        console.log('el numero es '+count+ 'es impar');}
+        arregloNumero.push(count);
+        count--;
+        }
+        
+        arregloNumero.pop();
+        arregloNumero.splice(3,1,11);
+        console.log('Se acaba');
+        console.log(arregloNumero);
+    
+        var numSheep=4;
+        var mountNumber=1;
+        var montstoPrint=12;
+        
+        while(mountNumber<=montstoPrint){
+            numSheep=numSheep*4;
+            console.log('deberia haber '+ numSheep+ ' sheeps'+ mountNumber);
+            mountNumber++;
+        }
+        var numSheep=4;
+        var mountNumber=1;
+        var montstoPrint=12;
+        for(mountNumber=1;mountNumber<=montstoPrint;mountNumber++){
+            numSheep=numSheep*4;
+            console.log('deberia haber '+ numSheep+ ' sheeps'+ mountNumber);
             
+        }
+    
+    </script>
+
+
+
 </head>
 
 <body>
-    
+
 </body>
 
 </html>
