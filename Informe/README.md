@@ -100,34 +100,27 @@ Para obtener una guia y seguir buenas practicas debemos tener presente lo que es
 
 (Enlace: [w3schools](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/website/web_design.asp.html))
 
-Como primer paso se realiza el uso de estilos en cascada, este es de gran utilidad cuando se desea aplicar varios estilos a diferentes tags dentro del HTML.
-- Código ejemplo 
-  <br>
-  ```
-  <Style>
-    .borde{
-        border: black solid 2px;
-    }
-  </Style>
-  ```
+Dentro del enlace podemos encontrar temas clave a tener en cuenta para el desarrollo web como:
+
+- Los usuarios son Scaners.
+- Menos es mas.
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/estilos%20cascada.PNG" width="800" height="600">
+<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/webdesign.png" width="800" height="600">
 </p>
 
-A continuacion se utilizan clases para definir estilos que nosotros deseemos.
-- Código dentro del `<head>`
-<br>
-  ```
-  .nombreClaseAzul{background-color: #0037ff;}
-  ```
+- Velocidad de descarga.
+- Deja que la audiencia hable!.
+- Monitor de visitantes.
 
-- Código dentro del `<body>`
-  ```
-   <h1 class="nombreClaseAzul">Clase de CSS</h1>
-  ```
- 
-Establece el color desea para la clase de nombre 'nombreClaseAzul'.
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/velocidad%20de%20descarga.png" width="800" height="600">
+</p>
+
+A continuación, se debe buscar una libreria css que cumpla con los estandares. Hay que tener en cuenta que: 
+
+* Se debe utilizar la ultima versión de html en nuestras paginas web. 
+
 
 Para utilizar estilos a través de in 'id'. 
 - Código dentro del `<head>`
