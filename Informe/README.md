@@ -197,7 +197,7 @@ Código:
 Imagen:
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/webprovider.png" width="800" height="600">
+<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/conteinerbootstrap.PNG" width="800" height="200">
 </p>
 
 Manejo de inputs con bootstrap: 
@@ -213,6 +213,13 @@ Código
     <kbd>ctrl</kbd>
     </kbd>
 ```
+Imagen:
+
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/inputBootstrap.PNG" width="800" height="300">
+</p>
+
+
 <br>
 <a href="#cabecera">A la cabecera</a>
 
