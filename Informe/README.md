@@ -167,7 +167,52 @@ Manejo de contenedores con bootstrap.
 
 Emmet
 
+```
 <!--    .conteiner>(.row>.col-sm-3+.col-sm-6+.col-sm-3) EMMET-->
+```
+
+Código:
+```
+<div class="conteiner">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <div class="input-group">
+                </form>
+                <div class="input-group-addon">yo</div>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                <div class="input-group-addon">pato</div>
+                </div>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+```
+Imagen:
+
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/webprovider.png" width="800" height="600">
+</p>
+
+Manejo de inputs con bootstrap: 
+
+Código
+
+```
+<h2>User inputs con bootstrap</h2>
+
+    <p>no esta permitido copiar en clase</p>
+
+    <kbd><kbd>c</kbd>+
+    <kbd>ctrl</kbd>
+    </kbd>
+```
 <br>
 <a href="#cabecera">A la cabecera</a>
 
