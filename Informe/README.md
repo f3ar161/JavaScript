@@ -290,10 +290,9 @@ Imagen:
 
 ## Conclusiones y Recomendaciones
 
-- El uso de estilos .css nos permite separar el contenido y mejorar la presentación de nuestros HTML.
-- Bootstrap es altamente aceptado dentro de la comunidad web, tiene un connjunto de buenas practicas, entre la mas destacada tiene el Grid System visto en la practica.
-- El manejo de los comentarios dentro HTML nos ayuda a recordanos como utilizar los comandos de emmet para la creacion de las filas y las columnas. 
-- El uso del framework bootstrap para el desarrollo fron end nos permite tener una mayor rapidez y comodidad al momento de crear sitios web.
+- El uso de BootStrap nos permite realizar una presentación de nuestras páginas web mas atractivas al usuario.
+- El saber de las buenas practicas de diseño, validación, accesibilidad, seo nos permite desarrollar un sitio que cumpla con estandares de calidad con los que luego podremos evaluar y mejorar nuestras paginas web.
+- No hay que olvidarse de agregar el bootstrap.min.css dentro del head, de lo contrario no podremos hacer uso de ningun contenido que se encuentra en la página de bootstrap.
 
 <br>
 <a href="#cabecera">A la cabecera</a>
