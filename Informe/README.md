@@ -24,6 +24,8 @@
   * <a href="#css">CSS</a>
   * <a href="#W3C">W3SCHOOL</a>
   * <a href="#material">MATERIAL DESIGN</a>
+  * <a href="#accesibilidad">ACCESIBILIDAD WEB</a>
+  
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -50,6 +52,15 @@ El tema de la práctica es: `Diseño, calidad, WAI, validacion, Seo`
 Material se integró en Android Lollipop como reemplazo de Holo, anteriormente utilizado desde Android 4 y sucesores. La filosofía también se aplicó en Google Drive y Google Docs, Sheets y Slides, y se irá extendiendo progresivamente a todos los productos de Google (incluyendo Google Search, Gmail y Google Calendar), proporcionando una experiencia consistente en todas las plataformas. Google también lanzó APIs para que los desarrolladores externos incorporaran Material Design a sus aplicaciones.
  
 (Fuente: [wikipedia](https://es.wikipedia.org/wiki/Material_design))
+
+<a name="accesibilidad"></a>
+### ACCESIBILIDAD WEB
+<p align="center">
+<img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfqAAAAJGE1MGUwMTMyLWQ2ZTQtNGZjNi04M2U5LWQ0ZTQzYjMxM2NlOA.jpg" width="400" height="200">
+</p>
+La accesibilidad web tiene como objetivo lograr que las páginas web sean utilizables por el máximo número de personas, independientemente de sus conocimientos o capacidades personales e independientemente de las características técnicas del equipo utilizado para acceder a la Web.
+ 
+(Fuente: [accesibilidadweb](http://accesibilidadweb.dlsi.ua.es/))
 
 <br>
 <a name="BOOTSTRAP"></a>
