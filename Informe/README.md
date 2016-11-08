@@ -219,6 +219,71 @@ Imagen:
 <img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/inputBootstrap.PNG" width="800" height="150">
 </p>
 
+Manejo de  tablas de bootstrap: 
+
+Código
+
+```
+<table class="table table-hover table-bordered">
+        <! table row-->
+        <tr>
+            <! table header-->
+
+            <th>Company</th>
+            <th>Contract</th>
+            <th>Country</th>
+        </tr>
+
+        <tr class="active">
+            <! table detail-->
+            <td>Alfreds futter</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+
+        <tr class="danger">
+            <! table detail-->
+            <td>Deliah futter</td>
+            <td>Mario Peterson</td>
+            <td>France</td>
+
+        </tr>
+
+        <tr>
+            <! table detail-->
+            <td>Deliah futter</td>
+            <td>Mario Peterson</td>
+            <td>France</td>
+
+        </tr>
+        <tr>
+            <! table detail-->
+            <td>Deliah futter</td>
+            <td>Mario Peterson</td>
+            <td>France</td>
+
+        </tr>
+        <tr>
+            <! table detail-->
+            <td>Deliah futter</td>
+            <td>Mario Peterson</td>
+            <td>France</td>
+
+        </tr>
+        <tr>
+            <! table detail-->
+            <td>Deliah futter</td>
+            <td>Mario Peterson</td>
+            <td>France</td>
+
+        </tr>
+    </table>
+```
+Imagen:
+
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/tabla.PNG" width="800" height="180">
+</p>
 
 <br>
 <a href="#cabecera">A la cabecera</a>
