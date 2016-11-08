@@ -90,6 +90,16 @@ CSS es un lenguaje utilizado en la presentación de documentos HTML. Un document
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
+Hay que tener presente que para seguir un buen diseño, se necesitas de dos cosas:
+- Servidor Web
+- Servidor de aplicaciones
+
+Tambien se debe de tener a consideración que hay que minificar el contenido, es decir que se debe reducir todo la mayor cantidad posible, con el fin de mejorar la velocidad de carga. A su vez una buena navegacion permite al usuario circular por el sitio web sin ningun problema. 
+
+Para obtener una guia y seguir buenas practicas debemos tener presente lo que es el diseño web, esto lo podemos revisar en el apartado del w3school.
+
+(Enlace: [w3schools](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/website/web_design.asp.html))
+
 Como primer paso se realiza el uso de estilos en cascada, este es de gran utilidad cuando se desea aplicar varios estilos a diferentes tags dentro del HTML.
 - Código ejemplo 
   <br>
