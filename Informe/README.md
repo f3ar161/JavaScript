@@ -22,6 +22,7 @@
   * <a href="#BOOTSTRAP">BOOTSTRAP</a>
   * <a href="#disenoweb">DISEÑO WEB</a>
   * <a href="#css">CSS</a>
+  * <a href="#W3C">W3SCHOOL</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -55,7 +56,7 @@ El beneficio de usar responsive design en un sitio web, es principalmente que el
 <a name="disenoweb"></a>
 ### DISEÑO WEB
 <p align="center">
-<img src="http://www.tyd-sit.com/images/diseno_web-600x353.jpg" width="350" height="100">
+<img src="http://image.slidesharecdn.com/diseowebcondreamweavercs5-140928154021-phpapp02/95/introduccin-al-diseo-web-con-adobe-dreamweaver-cs5-4-638.jpg?cb=1411919044" width="350" height="250">
 </p>
 El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web. No es simplemente la implementación del diseño convencional ya que se abarcan diferentes aspectos como el diseño gráfico web, diseño de interfaz y experiencia de usuario, como la navegabilidad, interactividad, usabilidad, arquitectura de la información; interacción de medios, entre los que podemos mencionar audio, texto, imagen, enlaces, video y la optimización de motores de búsqueda. A menudo muchas personas trabajan en equipos que cubren los diferentes aspectos del proceso de diseño, aunque existen algunos diseñadores independientes que trabajan solos.
 
@@ -73,8 +74,8 @@ CSS es un lenguaje utilizado en la presentación de documentos HTML. Un document
 (Fuente: [aprenderaprogramar](http://www.aprenderaprogramar.com/index.php?option=com_content&id=546:que-es-y-para-que-sirve-el-lenguaje-css-cascading-style-sheets-hojas-de-estilo&Itemid=163))
 
 <br>
-<a name="css"></a>
-### W3CSCHOOL
+<a name="W3C"></a>
+### W3SCHOOL
 <p align="center">
 <img src="http://lh5.ggpht.com/-xs3Va7BdJyk/UiTg5yW9QrI/AAAAAAAAQ64/0Ilt5YculiA/s1600/w3schoolswebdevelopment6.png?imgmax=800" width="400" height="200">
 </p>
