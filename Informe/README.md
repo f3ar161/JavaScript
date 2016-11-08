@@ -23,6 +23,7 @@
   * <a href="#disenoweb">DISEÑO WEB</a>
   * <a href="#css">CSS</a>
   * <a href="#W3C">W3SCHOOL</a>
+  * <a href="#material">MATERIAL DESIGN</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -39,6 +40,17 @@ El tema de la práctica es: `Diseño, calidad, WAI, validacion, Seo`
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
+<a name="material"></a>
+### MATERIAL DESIGN
+<p align="center">
+<img src="https://s3.amazonaws.com/scripts.hellobar.com/image_uploads/images/000/004/667/original/ettrics-logo.png?1451185760" width="400" height="200">
+</p>
+ Material design es una normativa de diseño enfocado en la visualización del sistema operativo Android , además en la web y en cualquier plataforma. Fue desarrollado por Google y anunciado en la conferencia Google I/O celebrada el 25 de junio de 2014. Ampliando la interfaz de tarjetas vista por primera vez en Google Now.
+
+Material se integró en Android Lollipop como reemplazo de Holo, anteriormente utilizado desde Android 4 y sucesores. La filosofía también se aplicó en Google Drive y Google Docs, Sheets y Slides, y se irá extendiendo progresivamente a todos los productos de Google (incluyendo Google Search, Gmail y Google Calendar), proporcionando una experiencia consistente en todas las plataformas. Google también lanzó APIs para que los desarrolladores externos incorporaran Material Design a sus aplicaciones.
+ 
+(Fuente: [wikipedia](https://es.wikipedia.org/wiki/Material_design))
+
 <br>
 <a name="BOOTSTRAP"></a>
 ### BOOTSTRAP
@@ -83,6 +95,7 @@ CSS es un lenguaje utilizado en la presentación de documentos HTML. Un document
  
 (Fuente: [aprenderaprogramar](http://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=727:documentacion-especificacion-oficial-css-w3schools-y-w3fools-validacion-css-w3c-validator-cu01023d&catid=75:tutorial-basico-programador-web-css-desde-cero&Itemid=203))
 
+<br>
 
 <br>
 <a href="#cabecera">A la cabecera</a>
@@ -136,6 +149,8 @@ A continuación, se debe buscar una libreria css que cumpla con los estandares. 
 <p align="center">
 <img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/webprovider.png" width="800" height="600">
 </p>
+
+Generalmente el .io es un estandar para desarrollo web.  Socket.io (chat)
 
 
 <br>
