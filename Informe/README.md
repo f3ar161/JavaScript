@@ -152,6 +152,13 @@ A continuación, se debe buscar una libreria css que cumpla con los estandares. 
 
 Generalmente el .io es un estandar para desarrollo web.  Socket.io (chat)
 
+Para trabajar con bootstrap, agregamos el bootstrap.min.css: 
+Dentro del < head >
+ 
+ 
+ ```
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ ```
 
 <br>
 <a href="#cabecera">A la cabecera</a>
