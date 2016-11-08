@@ -6,11 +6,11 @@
 <img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="200" height="150">
 </p>
 
-### Tema : `Estilos en HTML` 
+### Tema : `Diseño, calidad, WAI, validacion, Seo` 
 ### Fecha : `2016-11-1`
 ### Estudiante : `Angel Enrique Molina Ortiz`
 ### Profesor : `Tania Calle - Adrian Eguez`
-### Número de informe : `2`
+### Número de informe : `3`
 
 <a name="cabecera"></a>
 ## Índice de contenidos
@@ -19,40 +19,25 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
-  * <a href="#angular">ANGULARJS</a>
   * <a href="#BOOTSTRAP">BOOTSTRAP</a>
-  * <a href="#HOJAESTILO">HOJA DE ESTILO</a>
+  * <a href="#disenoweb">DISEÑO WEB</a>
   * <a href="#css">CSS</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
 ## Tema
-El tema de la práctica es: `Estilos en HTML`
+El tema de la práctica es: `Diseño, calidad, WAI, validacion, Seo`
 
 <a name="objetivos"></a>
 ## Objetivos
 
-- Aprender el uso de estilos en HTML
-- Entender las herramientas que se utilizan en el desarrollo web como: AngularJS, BOOTSTRAP, ENTRE OTRAS.
-- Desarrollar una buena apreciacion para aplicar estilos a las paginas web.
+- Aprender el funcionamiento del framework de trabajo Bootstrap
+- Entender el uso de BootStrap para el buen diseño de paginas web
+- Comprender el uso de servidores para la creación de paginas web.
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
-<a name="angular"></a>
-### ANGULAR
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/695px-AngularJS_logo.svg.png" width="300" height="100">
-</p>
-
-AngularJS, o simplemente Angular, es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.
-
-La biblioteca lee el HTML que contiene atributos de las etiquetas personalizadas adicionales, entonces obedece a las directivas de los atributos personalizados, y une las piezas de entrada o salida de la página a un modelo representado por las variables estándar de JavaScript. Los valores de las variables de JavaScript se pueden configurar manualmente, o recuperados de los recursos JSON estáticos o dinámicos.
-
-AngularJS se puede combinar con el entorno en tiempo de ejecución Node.js, el framework para servidor Express.js y la base de datos MongoDB para formar el conjunto MEAN.
-
-(Fuente: [wikipedia](https://es.wikipedia.org/wiki/AngularJS))
-
 <br>
 <a name="BOOTSTRAP"></a>
 ### BOOTSTRAP
@@ -67,20 +52,16 @@ El beneficio de usar responsive design en un sitio web, es principalmente que el
 (Fuente: [arweb](http://www.arweb.com/chucherias/editorial/%C2%BFque-es-bootstrap-y-como-funciona-en-el-diseno-web.htm))
 
 <br>
-<a name="HOJAESTILO"></a>
-### HOJA DE ESTILO
+<a name="disenoweb"></a>
+### DISEÑO WEB
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/ESTILO.jpg" width="350" height="100">
+<img src="http://www.tyd-sit.com/images/diseno_web-600x353.jpg" width="350" height="100">
 </p>
-Las hojas de estilo representan un avance importante para los diseñadores de páginas web, al darles un mayor rango de posibilidades para mejorar la apariencia de sus páginas. En los entornos científicos en que la Web fue concebida, la gente estaba más preocupada por el contenido de sus páginas que por su presentación. A medida que la Web era descubierta por un espectro mayor de personas de distintas procedencias, las limitaciones del HTML se convirtieron en fuente de continua frustración, y los autores se vieron forzados a superar las limitaciones estilísticas del HTML. Aunque las intenciones han sido buenas -- mejorar la presentación de las páginas web --, las técnicas para conseguirlo han tenido efectos secundarios negativos. Entre estas técnicas, que dan buenos resultados para algunas personas, algunas veces, pero no siempre ni para todas las personas, se incluyen:
+El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web. No es simplemente la implementación del diseño convencional ya que se abarcan diferentes aspectos como el diseño gráfico web, diseño de interfaz y experiencia de usuario, como la navegabilidad, interactividad, usabilidad, arquitectura de la información; interacción de medios, entre los que podemos mencionar audio, texto, imagen, enlaces, video y la optimización de motores de búsqueda. A menudo muchas personas trabajan en equipos que cubren los diferentes aspectos del proceso de diseño, aunque existen algunos diseñadores independientes que trabajan solos.
 
-- La utilización de extensiones propietarias del HTML
-- Conversión del texto en imágenes
-- Utilización de imágenes para controlar el espacio en blanco
-- La utilización de tablas para la organización de las páginas
-- Escribir programas en lugar de usar HTML
+La unión de un buen diseño con una jerarquía bien elaborada de contenidos, aumenta la eficiencia de la web como canal de comunicación e intercambio de datos, que brinda posibilidades como el contacto directo entre el productor y el consumidor de contenidos.
 
-(Fuente: [html.conclase](http://html.conclase.net/w3c/html401-es/present/styles.html))
+(Fuente: [wikipedia](https://es.wikipedia.org/wiki/Dise%C3%B1o_web))
 
 <br>
 <a name="css"></a>
@@ -90,6 +71,17 @@ Las hojas de estilo representan un avance importante para los diseñadores de p�
 </p>
 CSS es un lenguaje utilizado en la presentación de documentos HTML. Un documento HTML viene siendo coloquialmente “una página web”. Entonces podemos decir que el lenguaje CSS sirve para organizar la presentación y aspecto de una página web. Este lenguaje es principalmente utilizado por parte de los navegadores web de internet y por los programadores web informáticos para elegir multitud de opciones de presentación como colores, tipos y tamaños de letra, etc.
 (Fuente: [aprenderaprogramar](http://www.aprenderaprogramar.com/index.php?option=com_content&id=546:que-es-y-para-que-sirve-el-lenguaje-css-cascading-style-sheets-hojas-de-estilo&Itemid=163))
+
+<br>
+<a name="css"></a>
+### W3CSCHOOL
+<p align="center">
+<img src="http://lh5.ggpht.com/-xs3Va7BdJyk/UiTg5yW9QrI/AAAAAAAAQ64/0Ilt5YculiA/s1600/w3schoolswebdevelopment6.png?imgmax=800" width="400" height="200">
+</p>
+ El W3C ofrece algunos servicios de interés a través de internet, como la posibilidad de consultar la documentación oficial relacionada con CSS, una web divulgativa y con ejemplos sobre la aplicación de CSS en la práctica y la validación (comprobación de cumplimiento del estándar) CSS de páginas web.
+ 
+(Fuente: [aprenderaprogramar](http://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=727:documentacion-especificacion-oficial-css-w3schools-y-w3fools-validacion-css-w3c-validator-cu01023d&catid=75:tutorial-basico-programador-web-css-desde-cero&Itemid=203))
+
 
 <br>
 <a href="#cabecera">A la cabecera</a>
