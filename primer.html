@@ -6,34 +6,104 @@
     <title>JavaScript</title>
     <script>
         /*var nombreFuncion = function (){
-          console.log ('nombreFuncion');  
-            
-        } //funcion anonima
-        nombreFuncion();
-        
-        function nombre(){
-            console.log('nombre');
-        }
-        nombre();
-        */
-        
-        
-        var passenger = [["Tomas","Meeks"],["Angel","Molina"],["Donald","Trump"]];
-        
-        
-        //funcion perfecta
-        var modifiedNames= passenger.map(function(arrayNombreApellido){
+                                                  console.log ('nombreFuncion');  
+                                                    
+                                                } //funcion anonima
+                                                nombreFuncion();
+                                                
+                                                function nombre(){
+                                                    console.log('nombre');
+                                                }
+                                                nombre();
+                                                */
+
+
+        var passenger = [["Tomas", "Meeks"], ["Angel", "Molina"], ["Donald", "Trump"]]
+            //funcion perfectareturn ();
+        var modifiedNames = passenger.map(function (arrayNombreApellido) {
             console.log(arrayNombreApellido[0] + arrayNombreApellido[1]);
             return (arrayNombreApellido[0] + arrayNombreApellido[1]);
-        }); 
-        
-        //a modified names con una map y una fun anonima con un alert 
-        
-        modifiedNames.map(function(nombrePasajero){
-           alert('yo, '+ nombrePasajero); 
         });
+
+        //a modified names con una map y una fun anonima con un alert 
+
+        /*
+                modifiedNames.map(function (nombrePasajero) {
+                    alert('yo, ' + nombrePasajero);
+                });
+        */
+
+
+        //crear 4 funciones 
+
+        /*var puzzlers = [function (input) {
+                console.log();
+                return ((3 * input) - 8);
+        }, function (input) {
+                return (Math.pow((input + 2), 3));
+        }, function (input) {
+                return (Math.pow((input), 2) - 9);
+            },
+            function (input) {
+                return (input % 4);
+            }];
+
+        console.log(puzzlers[0](5));
+        console.log(puzzlers[1](5));
+        console.log(puzzlers[2](5));
+        console.log(puzzlers[3](5));
+
+
+        function adventureSelector(userChoice) {
+
+            if (userChoice == 1) {
+                alert('Doom');
+            }
+            if (userChoice == 2) {
+                alert('Despair');
+            }
+            if (userChoice == 3) {
+                alert('catastrophe');
+            }
+        }
         
-        
+        console.log(adventureSelector(1));
+        console.log(adventureSelector(2));
+        console.log(adventureSelector(3));
+        */
+
+
+
+        var puzzlers = [
+     function (a) {
+                return 8 * a - 10;
+            },
+     function (a) {
+                return (a - 3) * (a - 3) * (a - 3);
+            },
+     function (a) {
+                return a * a + 4;
+            },
+     function (a) {
+                return a % 5;
+            }
+    ];
+
+        var start = 2;
+        var applyAndEmpty = function (input, queue) {
+
+
+            for (var i = 0; i < queue.length; i++) {
+                console.log('iteracion');
+                input = queue[i](input);
+                //queue.splice(0, 1);  quitar lo q tiene en el 0 y poner en el uno 
+                console.log(input);
+            }
+            
+            return input;
+        }
+
+        console.log(applyAndEmpty(start,puzzlers));
     </script>
 
 
