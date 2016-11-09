@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>JavaScript</title>
     <script>
-        var nombreFuncion = function (){
+        /*var nombreFuncion = function (){
           console.log ('nombreFuncion');  
             
         } //funcion anonima
@@ -15,6 +15,22 @@
             console.log('nombre');
         }
         nombre();
+        */
+        
+        
+        var passenger = [["Tomas","Meeks"],["Angel","Molina"],["Donald","Trump"]];
+        
+        
+        //funcion perfecta
+        var modifiedNames= passenger.map(function(arrayNombreApellido){
+            console.log(arrayNombreApellido[0] + arrayNombreApellido[1]);
+            return (arrayNombreApellido[0] + arrayNombreApellido[1]);
+        }); 
+        
+        //a modified names con una map y una fun anonima con un alert 
+        
+        
+        
         
     </script>
 
