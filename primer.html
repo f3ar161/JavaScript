@@ -6,16 +6,16 @@
     <title>JavaScript</title>
     <script>
         /*var nombreFuncion = function (){
-                                                  console.log ('nombreFuncion');  
-                                                    
-                                                } //funcion anonima
-                                                nombreFuncion();
-                                                
-                                                function nombre(){
-                                                    console.log('nombre');
-                                                }
-                                                nombre();
-                                                */
+                                                          console.log ('nombreFuncion');  
+                                                            
+                                                        } //funcion anonima
+                                                        nombreFuncion();
+                                                        
+                                                        function nombre(){
+                                                            console.log('nombre');
+                                                        }
+                                                        nombre();
+                                                        */
 
 
         var passenger = [["Tomas", "Meeks"], ["Angel", "Molina"], ["Donald", "Trump"]]
@@ -91,19 +91,19 @@
 
         var start = 2;
         var applyAndEmpty = function (input, queue) {
-
-
-            for (var i = 0; i < queue.length; i++) {
+            var longitud = queue.length;
+            for (var i = 0; i < longitud; i++) {
                 console.log('iteracion');
-                input = queue[i](input);
-                //queue.splice(0, 1);  quitar lo q tiene en el 0 y poner en el uno 
+                input = queue[0](input);
                 console.log(input);
+                queue.splice(0, 1); //queue.splice(0, 1);  quitar lo q tiene en el 0 y poner en el uno 
+
             }
-            
+            console.log(queue);
             return input;
         }
 
-        console.log(applyAndEmpty(start,puzzlers));
+        console.log(applyAndEmpty(start, puzzlers));
     </script>
 
 
