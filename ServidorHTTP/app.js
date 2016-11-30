@@ -55,6 +55,17 @@ app.post('/Usuario', function (req, res) {
 
 });
 
+
+app.put('/Usuario', function (req, res) {
+    
+//usuario actualizado
+});
+
+
+app.delete('/Usuario', function (req, res) {
+    
+//usuario borrado
+});
 app.post('/TecnologiasWeb', function (req, res) {
     
     var usuario = {
