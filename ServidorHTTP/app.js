@@ -7,7 +7,7 @@ var usuarios = [{id:1,nombre:'Angel',cedula: '050308737'},
                 {id:2,nombre:'cris',cedula: '05030873'},
                 {id:3,nombre:'Monica',cedula: '0503087234'}];
 
-
+var contador=3;
 
 //los dos puntos indican que es un parametro
 app.get('/Usuarios/:idUsuario', function (req, res) {
@@ -25,6 +25,34 @@ app.get('/Usuario', function (req, res) {
 
     res.json(usuarios);
     
+});
+
+
+//http://localhost:5050/Usuario?nombre=angel&cedula=0503087371
+app.post('/Usuario', function (req, res) {
+    
+    console.log(req.query.nombre);
+    console.log(req.query.cedula);
+    if(!req.query.nombre){
+        res.send('No envio nombre');
+    }
+    
+    if(!req.query.cedula){
+        res.send('No envio cedula');
+    }
+    
+    var nuevoUsuario ={
+        id: contador+1,
+        nombre:req.query.nombre,
+        cedula:req.query.cedula}
+    
+    usuarios.push(nuevoUsuario);
+    contador=contador+1;
+    
+    
+    res.json(nuevoUsuario);
+    
+
 });
 
 app.post('/TecnologiasWeb', function (req, res) {
