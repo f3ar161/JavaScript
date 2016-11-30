@@ -21,11 +21,11 @@ app.get('/Usuarios/:idUsuario', function (req, res) {
     res.send('No existe usuario');
 });
 
-/*app.get('/Usuario', function (req, res) {
+app.get('/Usuario', function (req, res) {
 
     res.json(usuarios);
     
-});*/
+});
 
 app.post('/TecnologiasWeb', function (req, res) {
     
