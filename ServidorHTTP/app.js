@@ -1,19 +1,46 @@
-var express = require('express')
-var app = express()
+var express = require('express');
+var app = express();
+var puerto= 5050;
 
 app.get('/TecnologiasWeb', function (req, res) {
-  res.send('Hello World!')
-})
+  res.send('Hello World!');
+});
 
-app.post('/TecnologiasWebPost', function (req, res) {
-  res.send('Hola post')
-})
+app.post('/TecnologiasWeb', function (req, res) {
+    
+    var usuario = {
+        nombre: 'Angel Molina',
+        cedula: 0503087371
+        
+    }
+    usuario.apellido = 'Molina';
+    usuario.mascotas=[gato={nombre: 'mirana'}];
+    usuario.casado= false;
+    
+    res.append('token','1234');
+    
+    
+    console.log('lo que tengo en el request');
+    console.log(req);
+    console.log('lo que tengo en el respond');
+    console.log(res);
+    console.log('cabecera request');
+    console.log(req.headers);
+    console.log('cabecera respond');
+    console.log(res.headers);
+    //no se puede responder dos veces 
+    
+//    res.send('Hola post')
+    res.json(usuario);
+});
+
+
 app.put('/TecnologiasWebPut', function (req, res) {
-  res.send('Hola put')
-})
+  res.send('Hola put');
+});
 
 //request req
 //respond res
-app.listen(5050, function () {
-  console.log('Example app listening on port 5050!')
-})
+app.listen(puerto, function () {
+  console.log('Example app listening on port 5050!');
+});
