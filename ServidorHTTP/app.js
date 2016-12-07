@@ -8,6 +8,21 @@ var usuarios = [{id:1,nombre:'Angel',cedula: '050308737'},
                 {id:3,nombre:'Monica',cedula: '0503087234'}];
 
 var contador=3;
+var fs = require('fs');
+
+var quePasa = '';
+quePasa='Esta hpor leer el archpivo';
+console.log(quePasa);
+//hpathp relativo
+fs.readFile('./paginas/pagina.html',
+            'utf8',
+            function(error,archivoLeido){
+                console.log(error);
+                console.log(archivoLeido);
+});
+
+quePasa='Termino de leer el archpivo';
+console.log(quePasa);
 
 //los dos puntos indican que es un parametro
 app.get('/Usuarios/:idUsuario', function (req, res) {
@@ -105,6 +120,10 @@ app.get('/TecnologiasWeb', function (req, res) {
 app.put('/TecnologiasWebPut', function (req, res) {
   res.send('Hola put');
 });
+
+
+// .paginas/hpaginas.hptml el hpunto redirecciona al hpathp 
+//c:/hpaginas
 
 //request req
 //respond res
