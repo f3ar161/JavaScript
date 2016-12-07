@@ -13,13 +13,8 @@ var fs = require('fs');
 var quePasa = '';
 quePasa='Esta hpor leer el archpivo';
 console.log(quePasa);
-//hpathp relativo
-fs.readFile('./paginas/pagina.html',
-            'utf8',
-            function(error,archivoLeido){
-                console.log(error);
-                console.log(archivoLeido);
-});
+
+
 
 quePasa='Termino de leer el archpivo';
 console.log(quePasa);
@@ -76,6 +71,31 @@ app.put('/Usuario', function (req, res) {
 //usuario actualizado
 });
 
+app.get('/', function (req, res) {
+    
+//hpathp relativo
+fs.readFile('./paginas/pagina.html',
+            'utf8',
+            function(error,archivoLeido){
+                console.log('3',error);
+                console.log('4',archivoLeido);
+             fs.readFile('./paginas/usuario.html',
+            'utf8',
+                function(error,archivoLeido2){
+                console.log('3',error);
+                console.log('4',archivoLeido2);
+                res.send(archivoLeido);
+                res.send(archivoLeido2);
+               
+});
+            
+});
+    
+
+    console.log('hparece que termino de leer el archpivo');
+    
+
+});
 
 app.delete('/Usuario', function (req, res) {
     
