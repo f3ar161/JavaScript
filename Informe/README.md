@@ -235,7 +235,7 @@ Verificar la publicacion de cambios en la pagina de npm.
 Imagen:
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/paquetenpm.PNG" width="400" height="280">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/paquetenpm.PNG" width="700" height="320">
 </p>
 <br>
 <a href="#cabecera">A la cabecera</a>
@@ -243,8 +243,8 @@ Imagen:
 ## Conclusiones y Recomendaciones
 
 - El uso de npm nos permite crear nuevos paquetes y gestionar nuestro trabajo de manera rapida y facil.
-- El saber de las buenas practicas de diseño, validación, accesibilidad, seo nos permite desarrollar un sitio que cumpla con estandares de calidad con los que luego podremos evaluar y mejorar nuestras paginas web.
-- No hay que olvidarse de agregar el bootstrap.min.css dentro del head, de lo contrario no podremos hacer uso de ningun contenido que se encuentra en la página de bootstrap.
+- Se debe verificar que se tiene instalado nodeJS en nuestro computador para hacer uso de npm, y hay que ubicarse dentro del repositorio que vamos a trabajar para poder publicarlo sin ningun problema a traves del CMD. 
+- Tener en cuenta los credenciales de nuestra cuenta de npm, puesto que si no se ingresa correctamente no nos permitira publicar y en nuestra cuenta de npm en el navegador no se mostrara ningun paquete creado.
 
 <br>
 <a href="#cabecera">A la cabecera</a>
