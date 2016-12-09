@@ -20,93 +20,93 @@
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
   * <a href="#NODEJS">NODEJS</a>
-  * <a href="#NPM">NPM WEB</a>
+  * <a href="#NPM">NPM</a>
   * <a href="#GODRAW">GOOGLE DRAWING</a>
-  * <a href="#BALSAMIQ">BALSAMIQ</a>
-  * <a href="#material">MATERIAL DESIGN</a>
-  * <a href="#accesibilidad">ACCESIBILIDAD WEB</a>
+  * <a href="#BALSAMIQ">BALSAMIQ MOCKUPS</a>
+  * <a href="#NODEMAIL">NODE MAILER</a>
+ 
   
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
 ## Tema
-El tema de la práctica es: `Diseño, calidad, WAI, validacion, Seo`
+El tema de la práctica es: `NODEJS-NPM`
 
 <a name="objetivos"></a>
 ## Objetivos
 
-- Aprender el funcionamiento de NPM
-- Entender el uso de NPM para la creacion de modulos en nodeJS.
-- Comprender el uso de NPM para la creación paquetes.
+- Aprender el funcionamiento de NPM.
+- Entender el uso de NPM para la creacion de paqutes en nodeJS.
+- Comprender el uso del app.js dentro de nuestro nuevo paquete creado.
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
-<a name="material"></a>
-### MATERIAL DESIGN
+<a name="NODEJS"></a>
+### NODEJS
 <p align="center">
-<img src="https://s3.amazonaws.com/scripts.hellobar.com/image_uploads/images/000/004/667/original/ettrics-logo.png?1451185760" width="400" height="200">
+<img src="http://kyungw00k.github.com/nodeconf.kr-2012/img/nodejs-light.png" width="400" height="200">
 </p>
- Material design es una normativa de diseño enfocado en la visualización del sistema operativo Android , además en la web y en cualquier plataforma. Fue desarrollado por Google y anunciado en la conferencia Google I/O celebrada el 25 de junio de 2014. Ampliando la interfaz de tarjetas vista por primera vez en Google Now.
-
-Material se integró en Android Lollipop como reemplazo de Holo, anteriormente utilizado desde Android 4 y sucesores. La filosofía también se aplicó en Google Drive y Google Docs, Sheets y Slides, y se irá extendiendo progresivamente a todos los productos de Google (incluyendo Google Search, Gmail y Google Calendar), proporcionando una experiencia consistente en todas las plataformas. Google también lanzó APIs para que los desarrolladores externos incorporaran Material Design a sus aplicaciones.
+ Node es un intérprete Javascript del lado del servidor que cambia la noción de cómo debería trabajar un servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sólo una máquina física.
  
-(Fuente: [wikipedia](https://es.wikipedia.org/wiki/Material_design))
+(Fuente: [ibm](https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/))
 
-<a name="accesibilidad"></a>
-### ACCESIBILIDAD WEB
+<a name="NPM"></a>
+### NPM
 <p align="center">
-<img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfqAAAAJGE1MGUwMTMyLWQ2ZTQtNGZjNi04M2U5LWQ0ZTQzYjMxM2NlOA.jpg" width="400" height="200">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/NPM.png" width="400" height="200">
 </p>
-La accesibilidad web tiene como objetivo lograr que las páginas web sean utilizables por el máximo número de personas, independientemente de sus conocimientos o capacidades personales e independientemente de las características técnicas del equipo utilizado para acceder a la Web.
+npm es el director de la orquesta cuando se refiere a el manejo de dependencias o módulos en node.js, los uso más comunes son para:
+- Publicar
+- Descubrir
+- Instalar
+- Desarrollar programas en node
+Es la herramienta perfecta y necesaria en cuando a manejo de dependencias se refiere.
  
 (Fuente: [accesibilidadweb](http://accesibilidadweb.dlsi.ua.es/))
 
 <br>
-<a name="BOOTSTRAP"></a>
-### BOOTSTRAP
+<a name="GODRAW"></a>
+### GOOGLE DRAWING
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/Segunda-Clase/Informe/Imagenes/BOOTSTRAP.jpg" width="200" height="200">
+<img src="http://cdn.makeuseof.com/wp-content/uploads/2015/07/Google-Drawings-PostIt.jpg?004f0d" width="300" height="300">
 </p>
 
-Bootstrap, es un framework originalmente creado por Twitter, que permite crear interfaces web con CSS y JavaScript, cuya particularidad es la de adaptar la interfaz del sitio web al tamaño del dispositivo en que se visualice. Es decir, el sitio web se adapta automáticamente al tamaño de una PC, una Tablet u otro dispositivo. Esta técnica de diseño y desarrollo se conoce como “responsive design” o diseño adaptativo.
+Ponle color a tus documentos, presentaciones y sitios web; agrégales gráficos y diagramas que son muy fáciles de crear.       
+Crea todo junto, crea gráficos, diagramas de diseño o diagramas de flujo y luego agrégalos fácilmente a otros documentos o a un sitio web.
+Agrega comentarios en burbujas de diálogo o cuadros de texto para darle contexto a tus opiniones en un debate. Agrega el nombre de una persona en un comentario para enviarle una notificación por correo elctrónico al respecto.
 
-El beneficio de usar responsive design en un sitio web, es principalmente que el sitio web se adapta automáticamente al dispositivo desde donde se acceda. 
+Acceso en cualquier momento y en cualquier lugar.Todos tus dibujos se guardan automáticamente en Google Drive, para que puedas acceder a ellos desde cualquier dispositivo, estés donde estés.
 
-(Fuente: [arweb](http://www.arweb.com/chucherias/editorial/%C2%BFque-es-bootstrap-y-como-funciona-en-el-diseno-web.htm))
+(Fuente: [google](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme?hl=es-419))
 
 <br>
-<a name="disenoweb"></a>
-### DISEÑO WEB
+<a name="BALSAMIQ"></a>
+### BALSAMIQ MOCKUPS
 <p align="center">
-<img src="http://image.slidesharecdn.com/diseowebcondreamweavercs5-140928154021-phpapp02/95/introduccin-al-diseo-web-con-adobe-dreamweaver-cs5-4-638.jpg?cb=1411919044" width="350" height="250">
+<img src="http://www.imagensn.com/images/2012/11/13/Balsamiq-Mockups.jpg" width="350" height="300">
 </p>
-El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web. No es simplemente la implementación del diseño convencional ya que se abarcan diferentes aspectos como el diseño gráfico web, diseño de interfaz y experiencia de usuario, como la navegabilidad, interactividad, usabilidad, arquitectura de la información; interacción de medios, entre los que podemos mencionar audio, texto, imagen, enlaces, video y la optimización de motores de búsqueda. A menudo muchas personas trabajan en equipos que cubren los diferentes aspectos del proceso de diseño, aunque existen algunos diseñadores independientes que trabajan solos.
+Balsamiq Mockups nos provee de representaciones de todos los elementos utilizados para la construcción de una web, como pantallas de navegadores, títulos, menues, imágenes, videos, etc. Haciendo uso de ellos, sólo debemos organizarlos en un documento y ya podemos tener una primera aproximación de la solución a desarrollar.
 
-La unión de un buen diseño con una jerarquía bien elaborada de contenidos, aumenta la eficiencia de la web como canal de comunicación e intercambio de datos, que brinda posibilidades como el contacto directo entre el productor y el consumidor de contenidos.
+Balsamiq Mockups es una herramienta que puede ser usada tanto por clientes como por desarrolladores, con el objetivo de acordar aspectos importantes del alcance de una solución con una mínima inversión de tiempo dedicada.
 
-(Fuente: [wikipedia](https://es.wikipedia.org/wiki/Dise%C3%B1o_web))
+Los clientes pueden hacer uso de Balsamiq Mockups sin tener ningún tipo de conocimiento técnico especial. Gracias a ello, pueden comunicar de una manera más eficiente sus ideas y necesidades al grupo de trabajo que realizará las implementaciones. Se trata de una gran ayuda a la hora de definir el alcance de una solución.
+
+
+(Fuente: [glidea](http://www.glidea.com.ar/blog/balsamiq-mockups-una-herramienta-para-realizar-wireframes))
 
 <br>
-<a name="css"></a>
-### CSS
+<a name="NODEMAIL"></a>
+### NODE MAILER
 <p align="center">
-<img src="https://3.bp.blogspot.com/-qbDHB-6hWTg/VrqgMzARI0I/AAAAAAAAGeQ/QBiS33eX8pU/s1600/css3_logo.png" width="150" height="200">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/nodemailer.png" width="300" height="80">
 </p>
-CSS es un lenguaje utilizado en la presentación de documentos HTML. Un documento HTML viene siendo coloquialmente “una página web”. Entonces podemos decir que el lenguaje CSS sirve para organizar la presentación y aspecto de una página web. Este lenguaje es principalmente utilizado por parte de los navegadores web de internet y por los programadores web informáticos para elegir multitud de opciones de presentación como colores, tipos y tamaños de letra, etc.
-(Fuente: [aprenderaprogramar](http://www.aprenderaprogramar.com/index.php?option=com_content&id=546:que-es-y-para-que-sirve-el-lenguaje-css-cascading-style-sheets-hojas-de-estilo&Itemid=163))
+Nodemailer es un módulo que nos permitirá añadir estas funcionalidades en nuestro servidor Node.js. 
+Puede utilizarse para recibir mensajes de un formulario de contacto, enviar correos de confirmación… y un sin fin de cosas más.
 
-<br>
-<a name="W3C"></a>
-### W3SCHOOL
-<p align="center">
-<img src="http://lh5.ggpht.com/-xs3Va7BdJyk/UiTg5yW9QrI/AAAAAAAAQ64/0Ilt5YculiA/s1600/w3schoolswebdevelopment6.png?imgmax=800" width="400" height="200">
-</p>
- El W3C ofrece algunos servicios de interés a través de internet, como la posibilidad de consultar la documentación oficial relacionada con CSS, una web divulgativa y con ejemplos sobre la aplicación de CSS en la práctica y la validación (comprobación de cumplimiento del estándar) CSS de páginas web.
- 
-(Fuente: [aprenderaprogramar](http://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=727:documentacion-especificacion-oficial-css-w3schools-y-w3fools-validacion-css-w3c-validator-cu01023d&catid=75:tutorial-basico-programador-web-css-desde-cero&Itemid=203))
+(Fuente: [medium](https://medium.com/@uesteibar/env%C3%ADa-emails-desde-node-js-con-nodemailer-178cacf5cf6b#.qhu731pyw)
 
-<br>
+
 
 <br>
 <a href="#cabecera">A la cabecera</a>
