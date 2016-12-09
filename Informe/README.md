@@ -6,11 +6,11 @@
 <img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="200" height="150">
 </p>
 
-### Tema : `Diseño, calidad, WAI, validacion, Seo` 
-### Fecha : `2016-11-1`
+### Tema : `NODEJS-NPM` 
+### Fecha : `2016-11-23`
 ### Estudiante : `Angel Enrique Molina Ortiz`
 ### Profesor : `Tania Calle - Adrian Eguez`
-### Número de informe : `3`
+### Número de informe : `4`
 
 <a name="cabecera"></a>
 ## Índice de contenidos
@@ -19,7 +19,7 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
-  * <a href="#BOOTSTRAP">BOOTSTRAP</a>
+  * <a href="#NPM">NPM</a>
   * <a href="#disenoweb">DISEÑO WEB</a>
   * <a href="#css">CSS</a>
   * <a href="#W3C">W3SCHOOL</a>
@@ -36,9 +36,9 @@ El tema de la práctica es: `Diseño, calidad, WAI, validacion, Seo`
 <a name="objetivos"></a>
 ## Objetivos
 
-- Aprender el funcionamiento del framework de trabajo Bootstrap
-- Entender el uso de BootStrap para el buen diseño de paginas web
-- Comprender el uso de servidores para la creación de paginas web.
+- Aprender el funcionamiento de NPM
+- Entender el uso de NPM para la creacion de modulos en nodeJS.
+- Comprender el uso de NPM para la creación paquetes.
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
