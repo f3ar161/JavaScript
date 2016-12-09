@@ -1,4 +1,4 @@
-# Estilos en HTML
+# NODEJS-NPM
 
 ### Materia : `Tecnologías Web con JavaScript`
 
@@ -19,10 +19,10 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
-  * <a href="#NPM">NPM</a>
-  * <a href="#disenoweb">DISEÑO WEB</a>
-  * <a href="#css">CSS</a>
-  * <a href="#W3C">W3SCHOOL</a>
+  * <a href="#NODEJS">NODEJS</a>
+  * <a href="#NPM">NPM WEB</a>
+  * <a href="#GODRAW">GOOGLE DRAWING</a>
+  * <a href="#BALSAMIQ">BALSAMIQ</a>
   * <a href="#material">MATERIAL DESIGN</a>
   * <a href="#accesibilidad">ACCESIBILIDAD WEB</a>
   
