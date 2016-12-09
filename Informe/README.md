@@ -69,7 +69,7 @@ Es la herramienta perfecta y necesaria en cuando a manejo de dependencias se ref
 <a name="GODRAW"></a>
 ### GOOGLE DRAWING
 <p align="center">
-<img src="http://cdn.makeuseof.com/wp-content/uploads/2015/07/Google-Drawings-PostIt.jpg?004f0d" width="300" height="300">
+<img src="http://cdn.makeuseof.com/wp-content/uploads/2015/07/Google-Drawings-PostIt.jpg?004f0d" width="370" height="300">
 </p>
 
 Ponle color a tus documentos, presentaciones y sitios web; agrégales gráficos y diagramas que son muy fáciles de crear.       
@@ -114,20 +114,20 @@ Puede utilizarse para recibir mensajes de un formulario de contacto, enviar corr
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
-Hay que tener presente que para seguir un buen diseño, se necesitas de dos cosas:
-- Servidor Web
-- Servidor de aplicaciones
+El gestor de paquetes de nodeJS se llama npn , se tiene que instalar npm en nuestro repositorio.
+Posterior a esto de debe crear una cuenta en (Enlace: [npmjs](https://www.npmjs.com)
 
-Tambien se debe de tener a consideración que hay que minificar el contenido, es decir que se debe reducir todo la mayor cantidad posible, con el fin de mejorar la velocidad de carga. A su vez una buena navegacion permite al usuario circular por el sitio web sin ningun problema. 
+Hubicarse en su repositorio y abrir una consola, verificar la version de nodeJS instalada.
+crear un archivo 'app.js' dentro de una carpeta con nombre 'Nodejs' con el siguiente codigo:
 
-Para obtener una guia y seguir buenas practicas debemos tener presente lo que es el diseño web, esto lo podemos revisar en el apartado del w3school.
+Código:
+```
+var numeroUno= 2, numeroDos=10;
+console.log(numeroDos+numeroUno);
 
-(Enlace: [w3schools](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/website/web_design.asp.html))
+//se corre con el comando node app.js
+```
 
-Dentro del enlace podemos encontrar temas clave a tener en cuenta para el desarrollo web como:
-
-- Los usuarios son Scaners.
-- Menos es mas.
 
 <p align="center">
 <img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/webdesign.png" width="800" height="600">
