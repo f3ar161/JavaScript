@@ -125,7 +125,7 @@ Imagen:
 Se puede utilizar nodejs conjuntamente con mysql.
 Imagen:
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/nodesql.PNG" width="300" height="350">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/nodesql.PNG" width="500" height="400">
 </p>
 
 
@@ -133,7 +133,7 @@ Luego, abrir node en el cmd e instarciar una variable.
 Node es un compilador de javascript
 Imagen:
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/variablenode.PNG" width="800" height="600">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/variablenode.PNG" width="500" height="400">
 </p>
 
 
@@ -155,20 +155,20 @@ npm init
 ```
 Imagen:
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/npm%20init.PNG" width="800" height="600">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/npm%20init.PNG" width="500" height="250">
 </p>
 
 Se crea un archivo llamado package.json, este archivo viene a ser como la firma y contiene datos informativos.
 Imagen:
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/datos%20informativos%20package.PNG" width="800" height="600">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/datos%20informativos%20package.PNG" width="400" height="250">
 </p>
 
 Luego, ingresamos a nuestra cuenta de npm que creamos previamente, desde la consola con nuestros credenciales. 
 
 Imagen:
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/npmlog.PNG" width="800" height="600">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/npmlog.PNG" width="600" height="250">
 </p>
 
 Digitar el nombre del package junto con el comando:
@@ -179,8 +179,45 @@ npm i tecnologiaswebangel
 Imagen:
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/npmi.PNG" width="800" height="600">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/npmi.PNG" width="500" height="280">
 </p>
+
+Dentro de nuestro repositorio crear otra carpeta 'Nodejs2' y un archivo 'app.js' con el siguiente codigo.
+Código:
+```
+var calculadora = require("lagranpugta");
+console.log(calculadora.imprimirSuma1y2());
+```
+
+Este archivo llama al nuevo paquete que creamos en nuestra cuenta de npm.
+
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/publish.PNG" width="400" height="280">
+</p>
+
+Archivos de nuestro paquete:
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/lagranpugta.PNG" width="400" height="280">
+</p>
+
+El app.js de este paquete contiene lo siguiente:
+Código:
+```
+module.exports={
+    imprimirSuma1y2:imprimirSuma1y2,
+}
+
+function imprimirSuma1y2()
+{
+
+var numero1 = 1,
+    numero2 = 2;
+
+//se corre con el comando node app.js(nombre archivo)
+console.log(numero1+numero2);
+
+}
+```
 
 Una vez que realizamos todos los cambios necesarios publicamos el contenido.
 Comando : 
@@ -191,7 +228,7 @@ npm publish
 Imagen:
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/publish.PNG" width="800" height="180">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/publish.PNG" width="400" height="280">
 </p>
 
 <br>
