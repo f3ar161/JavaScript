@@ -192,12 +192,12 @@ console.log(calculadora.imprimirSuma1y2());
 Este archivo llama al nuevo paquete que creamos en nuestra cuenta de npm.
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/publish.PNG" width="400" height="280">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/node2.PNG" width="600" height="150">
 </p>
 
 Archivos de nuestro paquete:
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/lagranpugta.PNG" width="400" height="280">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/lagranpugta.PNG" width="600" height="150">
 </p>
 
 El app.js de este paquete contiene lo siguiente:
@@ -231,6 +231,12 @@ Imagen:
 <img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/publish.PNG" width="400" height="280">
 </p>
 
+Verificar la publicacion de cambios en la pagina de npm. 
+Imagen:
+
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/paquetenpm.PNG" width="400" height="280">
+</p>
 <br>
 <a href="#cabecera">A la cabecera</a>
 
