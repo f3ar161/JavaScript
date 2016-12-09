@@ -116,9 +116,29 @@ Puede utilizarse para recibir mensajes de un formulario de contacto, enviar corr
 
 El gestor de paquetes de nodeJS se llama npn , se tiene que instalar npm en nuestro repositorio.
 Posterior a esto de debe crear una cuenta en (Enlace: [npmjs](https://www.npmjs.com)
+Ingreso a npm.
+Imagen:
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/lognpm.PNG" width="300" height="350">
+</p>
+
+Se puede utilizar nodejs conjuntamente con mysql.
+Imagen:
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/nodesql.PNG" width="300" height="350">
+</p>
+
+
+Luego, abrir node en el cmd e instarciar una variable.
+Node es un compilador de javascript
+Imagen:
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/variablenode.PNG" width="800" height="600">
+</p>
+
 
 Hubicarse en su repositorio y abrir una consola, verificar la version de nodeJS instalada.
-crear un archivo 'app.js' dentro de una carpeta con nombre 'Nodejs' con el siguiente codigo:
+Crear un archivo 'app.js' dentro de una carpeta con nombre 'Nodejs' con el siguiente codigo:
 
 Código:
 ```
@@ -128,172 +148,50 @@ console.log(numeroDos+numeroUno);
 //se corre con el comando node app.js
 ```
 
-
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/webdesign.png" width="800" height="600">
-</p>
-
-- Velocidad de descarga.
-- Deja que la audiencia hable!.
-- Monitor de visitantes.
-
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/velocidad%20de%20descarga.png" width="800" height="600">
-</p>
-
-A continuación, se debe buscar una libreria css que cumpla con los estandares. Hay que tener en cuenta que: 
-
-* Se debe utilizar la ultima versión de html en nuestras paginas web. 
-
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/calidad.png" width="800" height="600">
-</p>
-
-* Utilizar w3 validator. O con bracket para revisar que este bien escrito. 
-
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/validator.PNG" width="800" height="600">
-</p>
-
-* Se debe saber que tipo de Hardware se esta utilizando.
-
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/webprovider.png" width="800" height="600">
-</p>
-
-Generalmente el .io es un estandar para desarrollo web.  Socket.io (chat)
-
-Para trabajar con bootstrap, agregamos el bootstrap.min.css: 
-
-
-Dentro del < head >
- 
- 
- ```
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
- ```
-
-Manejo de contenedores con bootstrap.
-
-
-Emmet
-
+Crear el nuevo paquete dendo de la carpeta 'Nodejs'.
+Comando : 
 ```
-<!--    .conteiner>(.row>.col-sm-3+.col-sm-6+.col-sm-3) EMMET-->
+npm init
 ```
+Imagen:
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/npm%20init.PNG" width="800" height="600">
+</p>
 
-Código:
+Se crea un archivo llamado package.json, este archivo viene a ser como la firma y contiene datos informativos.
+Imagen:
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/datos%20informativos%20package.PNG" width="800" height="600">
+</p>
+
+Luego, ingresamos a nuestra cuenta de npm que creamos previamente, desde la consola con nuestros credenciales. 
+
+Imagen:
+<p align="center">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/npmlog.PNG" width="800" height="600">
+</p>
+
+Digitar el nombre del package junto con el comando:
+Comando : 
 ```
-<div class="conteiner">
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <div class="input-group">
-                </form>
-                <div class="input-group-addon">yo</div>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                <div class="input-group-addon">pato</div>
-                </div>
-                </div>
-                <button type="submit" class="btn btn-success">Submit</button>
-                </form>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-    </div>
+npm i tecnologiaswebangel
 ```
 Imagen:
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/conteinerbootstrap.PNG" width="800" height="150">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/npmi.PNG" width="800" height="600">
 </p>
 
-Manejo de inputs con bootstrap: 
-
-Código
-
+Una vez que realizamos todos los cambios necesarios publicamos el contenido.
+Comando : 
 ```
-<h2>User inputs con bootstrap</h2>
-
-    <p>no esta permitido copiar en clase</p>
-
-    <kbd><kbd>c</kbd>+
-    <kbd>ctrl</kbd>
-    </kbd>
+npm publish
 ```
+
 Imagen:
 
 <p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/inputBootstrap.PNG" width="800" height="150">
-</p>
-
-Manejo de  tablas de bootstrap: 
-
-Código
-
-```
-<table class="table table-hover table-bordered">
-        <! table row-->
-        <tr>
-            <! table header-->
-
-            <th>Company</th>
-            <th>Contract</th>
-            <th>Country</th>
-        </tr>
-
-        <tr class="active">
-            <! table detail-->
-            <td>Alfreds futter</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-        </tr>
-
-        <tr class="danger">
-            <! table detail-->
-            <td>Deliah futter</td>
-            <td>Mario Peterson</td>
-            <td>France</td>
-
-        </tr>
-
-        <tr>
-            <! table detail-->
-            <td>Deliah futter</td>
-            <td>Mario Peterson</td>
-            <td>France</td>
-
-        </tr>
-        <tr>
-            <! table detail-->
-            <td>Deliah futter</td>
-            <td>Mario Peterson</td>
-            <td>France</td>
-
-        </tr>
-        <tr>
-            <! table detail-->
-            <td>Deliah futter</td>
-            <td>Mario Peterson</td>
-            <td>France</td>
-
-        </tr>
-        <tr>
-            <! table detail-->
-            <td>Deliah futter</td>
-            <td>Mario Peterson</td>
-            <td>France</td>
-
-        </tr>
-    </table>
-```
-Imagen:
-
-<p align="center">
-<img src="https://github.com/f3ar161/JavaScript/blob/03.BootStrap/Informe/Imagenes/tabla.PNG" width="800" height="180">
+<img src="https://github.com/f3ar161/JavaScript/blob/07.NodeJs/Informe/Imagenes/publish.PNG" width="800" height="180">
 </p>
 
 <br>
@@ -301,7 +199,7 @@ Imagen:
 
 ## Conclusiones y Recomendaciones
 
-- El uso de BootStrap nos permite realizar una presentación de nuestras páginas web mas atractivas al usuario.
+- El uso de npm nos permite crear nuevos paquetes y gestionar nuestro trabajo de manera rapida y facil.
 - El saber de las buenas practicas de diseño, validación, accesibilidad, seo nos permite desarrollar un sitio que cumpla con estandares de calidad con los que luego podremos evaluar y mejorar nuestras paginas web.
 - No hay que olvidarse de agregar el bootstrap.min.css dentro del head, de lo contrario no podremos hacer uso de ningun contenido que se encuentra en la página de bootstrap.
 
