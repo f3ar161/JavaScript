@@ -148,14 +148,6 @@ module.exports = {
                 correo:parametros.correo
             }
             
-            
-            
-            
-            
-            
-            
-            
-            
 
             Usuario.destroy({
                 id: parametros.id
