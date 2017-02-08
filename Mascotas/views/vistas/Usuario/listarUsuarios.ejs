@@ -1,6 +1,18 @@
 <h1>Lista de Usuarios</h1>
  
- <p>Aqui se listan todos los usuarios del sistema de mascotas.</p>
+ <div class="row">
+     <div class="col-sm-9">
+         <p>Aqui se listan todos los usuarios del sistema de mascotas.</p>
+                 
+     </div>
+     <div class="col-sm-3">
+         <a href="/Crearusuario" class="btn btn-block btn-success">
+             Crear Usuario    
+         </a>
+         
+     </div>
+ </div>
+ 
  
  
  <% for(var i=0; i<usuarios.length; i++) {%>
@@ -22,12 +34,19 @@
          
          <div class="col-sm-5 text-center">
             <div class="text-center ma-borde" style="margin-top: 40px;">
-                <p> <%= usuarios[i].apellidos %> <%= usuarios[i].nombres %> </p>
-                <p> <%= usuarios[i].correo %> </p>
+                <p> <%= usuarios[i].apellidos %>
+                <%= usuarios[i].nombres %> 
+                </p>
+                <p> 
+                <%= usuarios[i].correo %> 
+                </p>
             </div>
          </div>
          
-         <div class="col-sm-1"></div>
+         <div class="col-sm-1">
+             <a href="/Usuarios/BorrarUsuario?=<usuarios[i].id%>"
+             class="btn btn-danger btn-block"></a>
+         </div>
      </div>
  
  <% }%>
