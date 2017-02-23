@@ -8,7 +8,7 @@ export class AppComponent implements OnInit{
   title:string ="Hola amigos";
   nombre:String="";
   apellido:String="";
-
+  nuevaTienda:any={};
   constructor() {
   this.nombre="Angel";
   this.apellido="Molina";
@@ -24,7 +24,9 @@ export class AppComponent implements OnInit{
   nombreCompleto():string{
     return `${this.nombre} ${this.apellido}`
   }
-  hizoClick(){
-    console.log("hizo click");
+
+  crearTienda(formulario){
+    console.log(formulario);
+
   }
 }
