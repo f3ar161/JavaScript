@@ -62,4 +62,15 @@ export class AppComponent implements OnInit {
     //   }
     // );
   }
+
+  actualizarTienda (tienda:any){
+    let parametros = {
+      nombre:tienda.nombre
+    };
+    this._http.put(this._masterURL.url+"Tienda/"+tienda.id,parametros).subscribe(
+      (res)=> {
+        console.log("Respuesta:", res.json());
+      }
+    )
+  }
 }
