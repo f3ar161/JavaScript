@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import {MasterURlService} from "./services/master-url.service";
 import { HomeComponent } from './home/home.component';
+import {routing} from "./app.routes";
 
 // DECORATOR
 // @Decorator({asd:"asd"})
@@ -20,7 +21,8 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [
     MasterURlService
@@ -29,6 +31,4 @@ import { HomeComponent } from './home/home.component';
 })
 
 export class AppModule { }
-
-
 
