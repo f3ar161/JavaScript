@@ -20,7 +20,11 @@
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
   * <a href="#sailjs">SailJS</a>
-  * <a href="#grunt">Grunt</a>
+    * <a href="#assets">Assets</a>
+    * <a href="#views">Views</a>
+    * <a href="#routes">Routes</a>
+    * <a href="#controllers">Controllers</a>
+    * <a href="#pipeline">Pipeline</a>
   
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
@@ -32,9 +36,9 @@ El tema de la práctica es: `Introduccion a SailJS`
 <a name="objetivos"></a>
 ## Objetivos
 
-- Aplicar estilos en un html utilizando CSS
-- Aprender el uso de lenguaje HTML CSS
-- Aprender del uso de grid de Bootstrap
+- Realizar aplicaciones web con sails
+- Aprender el uso de sails
+- Comprender los conceptos básicos de sails
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
@@ -77,12 +81,30 @@ Link Documentación Oficial:
 <p align="center">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRabtBuZlKko7_AQK2GFQ0uv48jonBNpZ_dlmIchVDYaGiYq4uf" width="300">
 </p>
+<br>
+<a name="routes"></a>
+### Routes
+Las rutas son a donde vamos a direccionar nuestro trafico dependiendo los métodos HTTP y el URL de nuestros recursos. 
+Link Documentación Oficial:
+(Fuente: [Routes](http://sailsjs.com/documentation/concepts/routes))
 
+<p align="center">
+<img src="http://www.tobinkusuma.com/PROJECT/buttons/navi.gif" width="300">
+</p>
+<br>
+<a name="controllers"></a>
+### Controllers
+Los controladores dentro de Sailsjs tienen como finalidad brindar los métodos CRUD de nuestros modelos, así también como exponer la lógica de negocio que se defina en la aplicación, como por ejemplo la autenticación.
+(Fuente: [Controllers](http://sailsjs.com/documentation/concepts/controllers))
+
+<p align="center">
+<img src="https://cdn0.iconfinder.com/data/icons/web-development-2/512/cog_wheel_gears_technical_support_cogwheel_service_repair_teamwork_care_development_mechanics_gear_cogs_mechanical_optimization_settings_flat_design_icon-512.png" width="300">
+</p>
 
 <br>
-<a name="grunt"></a>
-### Grunt
-Grunt y los plugins de Grunt son instalados y administrados via npm. Cuando se ejecuta grunt, este busca por ``require()`` que se encuentre instalado localmente. Se encuentra conformado por un grupo de tareas que permite crear plugins propios y scripts que extiendan la funcionalidad básica. (Fuente: [envatotuts+](https://code.tutsplus.com/tutorials/meet-grunt-the-build-tool-for-javascript--net-24856))
+<a name="pipeline"></a>
+### Pipeline
+En el archivo pipeline.js dentro de la carpeta task se encuentran las diferentes configuraciones de GRUNT que es un automatizador de actividades con JavaScript. Dentro de este podemos configurar los assets que van a ser inyectados en TODAS las vistas de nuestra aplicación en Sailsjs. (Fuente: [Pipeline](https://code.tutsplus.com/tutorials/meet-grunt-the-build-tool-for-javascript--net-24856))
 
 <p align="center">
 <img src="https://www.smashingmagazine.com/wp-content/uploads/2013/10/grund-js-opt.png" width="300">
