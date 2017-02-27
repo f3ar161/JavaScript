@@ -1,4 +1,4 @@
-﻿# Introducción a SailsJS
+# Sailsjs - Assets / Views / Pipeline / Controllers
 
 ### Materia : `Tecnologías Web con JavaScript`
 
@@ -6,7 +6,7 @@
 <img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="200" height="150">
 </p>
 
-### Tema : `Introducción a SailsJS` 
+### Tema : `Sailsjs - Assets / Views / Pipeline / Controllers` 
 ### Fecha : `2017-01-05`
 ### Estudiante : `Molina Ortiz Angel`
 ### Profesor : `Tania Calle - Adrian Eguez`
@@ -43,12 +43,12 @@ El tema de la práctica es: `Introduccion a SailJS`
 Sails es un framework de Javascript diseñado para parecerse a una arquitectura MVC de frameworks como Ruby on Rails. Hace que el proceso de construcción de aplicaciones en Node.js sea más sencilla, especialmente las APIs, aplicaciones de paginas sumples y con características de tiempo real, como el chat.
 
 Sails tiene como puerto de defecto el 1337. Y se encuentra conformado por las carpetas:
-- Assets.- Contiene archivos de Javascript y CSS.
-- Public.- Contiene archivos que estan disponibes de forma pública, como imagenes.
+- Assets.- Archivos de Javascript y CSS.
+- Public.- Archivos que estan disponibes de forma pública, como imagenes.
 - Config.
-- Vistas.- Contiene las vistas de la aplicación.
+- Vistas.- Vistas de la aplicación.
 
-(Fuente: [envatotuts+](https://code.tutsplus.com/tutorials/introduction-to-sailsjs--net-35390))
+(Fuente: [sailsjs](http://sailsjs.com/documentation/concepts))
 
 <br>
 <a href="#cabecera">A la cabecera</a>
@@ -58,7 +58,28 @@ Sails tiene como puerto de defecto el 1337. Y se encuentra conformado por las ca
 </p>
 
 <br>
+<a name="assets"></a>
+### Assets
+Los assets son una carpeta dentro del Framework la cual funciona como un servidor web de archivos estáticos, en donde cualquier tipo de archivos que coloquemos en esta carpeta será mostrada al público.
+(Fuente: [Assets](http://sailsjs.com/documentation/concepts/assets))
 
+<p align="center">
+<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRopC2y9NRW33uifZOOSa-mvnP2Pjj4RBynYamcDBbHOpDhsuGG" width="300">
+</p>
+
+<br>
+<a name="views"></a>
+### Views
+Las vistas son las páginas que se va a mostrar al usuario dependiendo de la lógica que tenga nuestra aplicación de sailsjs. 
+Link Documentación Oficial:
+(Fuente: [Views](http://sailsjs.com/documentation/concepts/views))
+
+<p align="center">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRabtBuZlKko7_AQK2GFQ0uv48jonBNpZ_dlmIchVDYaGiYq4uf" width="300">
+</p>
+
+
+<br>
 <a name="grunt"></a>
 ### Grunt
 Grunt y los plugins de Grunt son instalados y administrados via npm. Cuando se ejecuta grunt, este busca por ``require()`` que se encuentre instalado localmente. Se encuentra conformado por un grupo de tareas que permite crear plugins propios y scripts que extiendan la funcionalidad básica. (Fuente: [envatotuts+](https://code.tutsplus.com/tutorials/meet-grunt-the-build-tool-for-javascript--net-24856))
