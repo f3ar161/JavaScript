@@ -170,141 +170,130 @@ se las puede observar dentro de la carpeta views del proyecto.
 <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap7.png?raw=true" width="200" height="">
 </p>
 
-Dentro del archivo de layout, se encuentra una variable ``cssFilesToInject``, en el cual se especifican la ubicación de los archivos que se utilizarán en la aplicación.
+Pipeline: 
+Muestra lo que se encuentra en el ultimo archivo css en caso de tener varios para una pagina web. 
 
 <p align="center">
-<img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap8.png?raw=true" width="400" height="">
-</p>
-
-**Pipeline**
-En caso de que se definan varios archivos css y no se haya especificado uno solo, esta variable leerá todos, uno después de otro, y se mostrará lo que se encuentre en el último. Esto se conoce como pipeline.
-
-<p align="center">
-<img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap9.png?raw=true" width="400" height="">
+<img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap9.png" width="400" height="">
 </p>
         
-Se actualiza la página y se muestra con los cambios en la vista.
+Pagina con el ultimo archivo css trabajando. 
 
 <p align="center">
-<img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap10.png?raw=true" width="500" height="">
+<img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap10.png" width="500" height="">
 </p>
 
-De igual forma, se puede definir un solo archivo para que sea leído de la carpeta.
+A continuacion se define un solo archivo .css
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap11.png?raw=true" width="" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap11.png" width="" height="">
 </p>
 
-Al actualizar el navegador, se ingresa a inspeccionar y se  verifica que está leyendo un solo archivo de estilos.
+
+En el mismo archivo, se encuentra la variable "jsFilesToInject".
+Donde se  define los archivos que se van a ejecutar y que se encuentran en assets. 
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap12.png?raw=true" width="" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap13.png" width="" height="">
 </p>
 
-Dentro del mismo archivo, se encuentra la variable ``jsFilesToInject``. En esta variable en cambio de define los archivos que se van a ejecutar y que se encuentren en assets. 
+Se especifica el body con el comando: 
+```
+<%- body -%>
+```
+Para leer el contenido desde otro archivo ubicado en las views.
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap13.png?raw=true" width="" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap14.png" width="" height="">
 </p>
-
-En la parte de la vista del layout, se modifica el código a mostrar. Se especifica el body ``<%- body -%>`` puesto que el contenido se leera de otro archivo ubicado en views. Esto permite definir encabezados y pies de página
+Definir en otro archivo de la vista el contenido del body. En este caso en
+```
+homepage.ejs
+```
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap14.png?raw=true" width="" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap15.png" width="500" height="">
 </p>
 
-Se define en otro archivo de la vista el contenido del body. En este caso en ``homepage.ejs``
+Estilos para una pagina especifica.
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap15.png?raw=true" width="500" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap16.png" width="500" height="">
 </p>
 
-Se puede definir asi mismo, estilos propios para una pagina especifica.
+Pagina con cambios realizados.
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap16.png?raw=true" width="500" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap17.png" width="400" height="">
 </p>
 
-Se actualiza la pagina y se muestran los cambios realizados
+En la carpeta de config archivo:
+```
+routes.js
+``` 
+Se define las rutas que se necesitaran en la aplicacion.
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap17.png?raw=true" width="400" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap18.png" width="200" height="">
 </p>
 
-En la carpeta de config se encuentra el archivo ``routes.js``, en el cual se definen las rutas que se necesitaran en la aplicacion.
+Se especifica la vista principal,
+```
+homepage
+```
+Se especifican las diferentes rutas junto con su vista asignada para cada una.
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap18.png?raw=true" width="200" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap19.png" width="200" height="">
 </p>
 
-Se especifica la vista principal o por defecto, ``homepage``, y se especifican las diferentes rutas junto con su vista asignada para cada una.
+Se crean las vistas con .ejs 
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap19.png?raw=true" width="200" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap20.png" width="200" height="">
 </p>
 
-Se crea en la carpeta de views, las nuevas vistas definidas en la seccion de rutas, con la extension ``ejs``
 
-<p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap20.png?raw=true" width="200" height="">
-</p>
-
-En el navegador se comprueba lo configurado anteriormente, para ello se ingresa al puerto y se ubica la ruta nueva que se haya especificado.
-
-<p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap21.png?raw=true" width="400" height="">
-</p>
-
-**Controllers**
+Controladores
 <br>	
-Sails permite la creacion de controles, para lo cual en la consola de comandos se ejecuta ``sails generate controller [nombre]``
+Sails permite la creacion de controles, comando:
+```
+sails generate controller [nombre]
+```
+
+El archivo se puede configurar, se crea tres metodos en el cual el servidor dara una respuesta.
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap22.png?raw=true" width="" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap23.png" width="300" height="">
 </p>
 
-Luego de ejecutar el comando se creara un archivo con un ejemplo de controladores. Este archivo se puede configurar, por ejemplo en este caso se crean tres metodos en el cual el servidor dara una respuesta.
+Para ejecutar los controladores se ingresa en el navegador:
+```
+localhost:1337/[nombre dado al controlador]/[nombre definido en el archivo]
+```
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap23.png?raw=true" width="300" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap24.png" width="300" height="">
 </p>
 
-Para ejecutar los controladores se ingresa en el navegador y se ubica ``localhost:1337/[nombre dado al controlador]/[nombre definido en el archivo]``
+Resultado en archivos .json 
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap24.png?raw=true" width="300" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap25.png" width="200" height="">
 </p>
 
-Asi mismo se puede definir para que como resultado retorne un archivo jason.
+retorno de respuestas en formato .json de acuerdo al metodo http.
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap25.png?raw=true" width="200" height="">
-</p>
-
-De igual forma se pueden definir que se retornen respuestas en formato jason de acuerdo al metodo http que se define o sea necesario utilizar en la aplicacion. En este caso para comprobar se ubico con un if para que regrese un mensaje de acuerdo al metodo http.
-
-<p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap26.png?raw=true" width="200" height="">
-</p>
-
-Se comprueba utilizando postman, en el cual se procede a enviar con el metodo DELETE para tener como respuesta lo se especifico
-
-<p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap27.png?raw=true" width="400" height="">
-</p>
-
-Se comprueba con el metodo POST y se obtiene la respuesta especificada.
-
-<p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap28.png?raw=true" width="400" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap26.png" width="200" height="">
 </p>
 
 <a name="conrec"></a>
-## Conclusiones y Recomendaciones
-- Sails es un framework de Javascript el cual permite ir creando un proyecto web, pues define los elementos para definir archivos de logica, de estilos, las vistas, las rutas, entre otros. Ademas presenta una organizacion de la informacion en forma de archivos.
-- Sails permite la generacion de controladores en los cuales se puede definir retonar un archivo en formato jason, asi como aplicar los metodos de http.
-- Es necesario conocer la estructura que presenta Sails para que el desarrollador pueda ubicar los recursos y pueda utilizar eficientemente el framework que ofrece.
-- Sails trabaja conjuntamente con Nodejs, pues es un paquete. Esto permite que pueda ejecutar aplicaciones en node y que pueda ser instalado facilmente en el equipo.
+### Conclusiones y Recomendaciones
+- Sails es un framework de trabajo facil de usar con el cualse pueden crear proyectos web rapidamente sin mayor complicaicones. 
+- Sails comprender el modelo MVC con el cual se puede generar controladores vistas y modelos de manera aislada sin mezclar todo, permitiendo que sea una aplicacion escalable.
+- Se necesia seguir la documentacion de sails para el proceso de instalacion, para no tener ningun inconveniente. 
+- Para poder utilizar sails para desarrollar un proyecto se tiene que instalar nodejs previamente en el computador o se puede utilizar cloud9.io
 
 
 <br>
