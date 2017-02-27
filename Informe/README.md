@@ -114,44 +114,57 @@ En el archivo pipeline.js dentro de la carpeta task se encuentran las diferentes
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
-### SailsJS
-Se instala el paquete de sails mediante nodejs con el comando ``npm install sails``
+Instalar sails mediante nodejs con el comando:
+```
+npm install sails
+```
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap1.png?raw=true" width="550" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap1.png" width="550" height="">
 </p>
 
-Se crea un nuevo proyecto de sail, llamado Mascotas. Para lo cual se ejecuta ``sails [Nombre Proyecto]``
+Crear un nuevo proyecto de sails "Mascotas". Comando:
+```
+sails [Proyecto]
+```
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap2.png?raw=true" width="500" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap2.png" width="500" height="">
 </p>
 
-Una vez creado el proyecto se creará una carpeta con el nombre especificado e internamente se encontrarán las carpetas que conforman sails.
+Se crea una carpeta con el nombre especificado y las carpetas que conforman sails.
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap3.png?raw=true" width="200" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap3.png" width="200" height="">
 </p>
-**Assets**
-Dentro de la carpeta assets se encuentran los archivos de css y de estilo, javascript de la aplicación, entre otros.
+
+En assets se encuentran los archivos fijos como: css, js, entre otros.
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap4.png?raw=true" width="200" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap4.png" width="200" height="">
 </p>
     
-Se levanta el servidor de sails lift. Se debe tener cuidado de estar ubicado dentro de la carpeta del proyecto para que el archivo a ejecutar pueda ser encontrado.
+Para levantar el servidor se utiliza:
+```
+sails lift
+```
+Hay qye ubicarse en la carpeta del proyecto.
 
 <p align="center">
-    <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap5.png?raw=true" width="400" height="">
+    <img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap5.png" width="400" height="">
 </p>
     
-Se abre un navegador y se ubica el nombre de la máquina, el puerto, y la ubicación hasta llegar al archivo index.html. ``localhost:1337/app/index.html``
- 
+Ingresar a la direccion: 
+```
+localhost:1337/app/index.html
+```
+Si no se presenta ningun error se mostrar una pagina como la que se muestra a cntinuacion: 
 <p align="center">
-<img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap6.png?raw=true" width="400" height="">
+<img src="https://github.com/f3ar161/JavaScript/blob/10-Sails-01/Informe/imagenes/cap6.png" width="400" height="">
 </p>
 
-**Views**
-En la carpeta de views, se encuentran los archivos de las vistas de la aplicación, originalmente se encuentran las vistas en caso de que haya algún error, y la página principal por defecto.
+
+Las vistas: 
+se las puede observar dentro de la carpeta views del proyecto.
 
 <p align="center">
 <img src="https://github.com/megyltv/Tecnologias_Web_Js/blob/10-Sails-01/Informe/imagenes/cap7.png?raw=true" width="200" height="">
