@@ -34,14 +34,6 @@ module.exports.policies = {
   * and its actions                                                          *
   *                                                                          *
   ***************************************************************************/
-     RabbitController: {
-        home: true,
-        error: false,
-        listarUsuarios: ['autenticado'],
-        crearUsuario: ['autenticado'],
-        editarUsuario: ['autenticado','esElMismoUsuario'],
-         
-     }
 	// RabbitController: {
 
 		// Apply the `false` policy as the default for all of RabbitController's actions
